@@ -6,33 +6,33 @@
 
 ### Source System: iGrafx
 
-**System Functionality Description:** Business process management and modeling platform managing process documentation, analysis, and optimization.
+**System Functionality Description:** Business process management and modeling platform for process analysis and workflow optimization.
 
 **Top 20-25 Key Entity Names:**
 - Process
-- Activity
 - ProcessModel
+- Activity
 - Workflow
 - ProcessStep
-- ProcessMetric
+- ProcessMetrics
+- ProcessInstance
+- Task
+- ProcessFlow
 - ProcessOwner
 - ProcessDocument
-- ProcessInstance
 - ProcessAnalysis
-- ActivityDuration
+- PerformanceMetric
 - ProcessOptimization
-- WorkflowDiagram
-- ProcessPerformance
-- ProcessVersion
-- ActivityResource
-- ProcessSimulation
-- ProcessImprovement
-- WorkflowNode
-- ProcessKPI
-- ActivitySequence
-- ProcessCompliance
 - ProcessMapping
-- ActivityCost
+- WorkflowDefinition
+- ProcessSimulation
+- ActivityDuration
 - ProcessEfficiency
+- ProcessImprovement
+- ProcessStandard
+- WorkflowAutomation
+- ProcessCompliance
+- ProcessReview
+- ProcessGovernance
 
 **Total Number of Tables:** 46
