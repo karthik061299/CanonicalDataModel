@@ -1,8 +1,128 @@
 # Commercial Business Unit - Source Systems Analysis
 
-| Business Unit Name | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|-------------------|-------------------|---------------------|---------------------------|----------------------|
-| Commercial | Aspire (Leasing) | Equipment and asset leasing platform for lease origination, servicing, and portfolio management. | - Lease<br>- Lessee<br>- Asset<br>- Equipment<br>- LeasePayment<br>- LeaseContract<br>- Lessor<br>- LeaseSchedule<br>- Residual<br>- LeaseTermination<br>- MaintenanceAgreement<br>- InsurancePolicy<br>- LeaseAmendment<br>- PaymentSchedule<br>- AssetValuation<br>- LeaseRenewal<br>- EndOfLeaseTerm | 17 |
-| Commercial | Cadence | Commercial banking platform for business lending, credit analysis, and relationship management. | - CommercialLoan<br>- Borrower<br>- CreditFacility<br>- Collateral<br>- Covenant<br>- FinancialStatement<br>- CreditAnalysis<br>- LoanOfficer<br>- Relationship<br>- LoanCommitment<br>- DrawRequest<br>- InterestRate<br>- LoanServicing<br>- PaymentHistory<br>- DefaultManagement<br>- RiskRating<br>- LoanReview<br>- CreditMemo<br>- LoanDocument<br>- GuaranteeAgreement<br>- LoanSyndication | 81 |
-| Commercial | Epiq | Bankruptcy and legal case management system for commercial loan workouts and recoveries. | - BankruptcyCase<br>- Debtor<br>- Creditor<br>- Claim<br>- Asset<br>- CourtFiling<br>- Trustee<br>- LegalDocument | 8 |
-| Commercial | Salesforce | Customer relationship management platform for sales, marketing, and customer service operations. | - Account<br>- Contact<br>- Lead<br>- Opportunity<br>- Case<br>- Campaign<br>- Product<br>- Quote<br>- Contract<br>- Task<br>- Event<br>- Activity<br>- SalesStage<br>- Territory<br>- Forecast<br>- Pipeline<br>- CustomerInteraction<br>- ServiceRequest<br>- SalesOrder<br>- PriceBook<br>- Partner<br>- CompetitorAnalysis<br>- MarketingCampaign<br>- CustomerSegment<br>- SalesTeam | 1773 |
+## Business Unit: Commercial
+
+---
+
+### Source System: Aspire (Leasing)
+
+**System Functionality Description:** Leasing management platform handling lease origination, contracts, payments, and asset tracking.
+
+**Top 20-25 Key Entity Names:**
+- Lease
+- Lessee
+- Asset
+- LeaseContract
+- Payment
+- LeaseSchedule
+- Lessor
+- LeaseApplication
+- Collateral
+- LeasePayment
+- Residual
+- LeaseTermination
+- AssetValuation
+- LeaseRenewal
+- InsurancePolicy
+- MaintenanceRecord
+- LeaseModification
+- DepreciationSchedule
+- LeaseOption
+- SecurityDeposit
+- LeaseInvoice
+- AssetReturn
+- LeasePortfolio
+- VendorRelationship
+- LeaseCompliance
+
+**Total Number of Tables:** 17
+
+---
+
+### Source System: Cadence
+
+**System Functionality Description:** Commercial banking platform managing business loans, credit facilities, and commercial relationship management.
+
+**Top 20-25 Key Entity Names:**
+- CommercialLoan
+- Business
+- CreditFacility
+- Borrower
+- Collateral
+- LoanAgreement
+- Payment
+- InterestRate
+- CreditLine
+- Guarantor
+- LoanOfficer
+- FinancialStatement
+- Covenant
+- Disbursement
+- Repayment
+- LoanReview
+- RiskRating
+- RelationshipManager
+- CommercialAccount
+- LoanCommitment
+- DrawRequest
+- LoanModification
+- ComplianceCheck
+- CreditAnalysis
+- LoanPortfolio
+
+**Total Number of Tables:** 81
+
+---
+
+### Source System: Epiq
+
+**System Functionality Description:** Bankruptcy and restructuring management system handling legal proceedings and asset recovery.
+
+**Top 20-25 Key Entity Names:**
+- BankruptcyCase
+- Debtor
+- Creditor
+- Claim
+- Asset
+- Proceeding
+- CourtFiling
+- Trustee
+- Distribution
+- LegalDocument
+
+**Total Number of Tables:** 8
+
+---
+
+### Source System: Salesforce
+
+**System Functionality Description:** Customer relationship management platform managing sales, opportunities, accounts, and customer interactions.
+
+**Top 20-25 Key Entity Names:**
+- Account
+- Contact
+- Opportunity
+- Lead
+- Case
+- Campaign
+- Activity
+- Task
+- Event
+- Product
+- Quote
+- Contract
+- Order
+- User
+- Territory
+- SalesStage
+- Pipeline
+- Forecast
+- CustomerInteraction
+- SalesTeam
+- OpportunityLineItem
+- AccountRelationship
+- LeadSource
+- CampaignMember
+- ServiceRequest
+
+**Total Number of Tables:** 1773
