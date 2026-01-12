@@ -1,7 +1,36 @@
-# Business Unit: AAS
+# AAS Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: AAS
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|----------------------|
-| AAS | ALF | Manages asset and liability financial data, risk analysis, and regulatory reporting for banking operations. | - Asset<br>- Liability<br>- FinancialInstrument<br>- InterestRate<br>- RiskMetric<br>- Portfolio<br>- Valuation<br>- Maturity<br>- CashFlow<br>- Hedge<br>- Derivative<br>- Security<br>- Investment<br>- RegulatoryReport<br>- BalanceSheet<br>- IncomeStatement<br>- NetInterestMargin<br>- Duration<br>- Scenario<br>- Stress Test<br>- Capital<br>- LiquidityRatio<br>- FundingSource<br>- MarketData<br>- RateShock | 68 |
+### Source System: ALF
+
+**System Functionality Description:** Manages asset liability management, interest rate risk, liquidity management, and financial modeling for treasury operations.
+
+**Top 20-25 Key Entity Names:**
+- Asset
+- Liability
+- InterestRate
+- Portfolio
+- RiskMetric
+- Cashflow
+- Instrument
+- Position
+- ValuationModel
+- Scenario
+- Hedge
+- Derivative
+- Maturity
+- Duration
+- Yield
+- Spread
+- Benchmark
+- RateShock
+- LiquidityGap
+- NetInterestIncome
+- EconomicValue
+- RiskLimit
+- Counterparty
+- CollateralAgreement
+- TreasuryAccount
+
+**Total Number of Tables:** 68
