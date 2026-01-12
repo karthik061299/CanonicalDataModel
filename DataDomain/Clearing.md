@@ -6,34 +6,34 @@
 
 ### Source System: Clearing
 
-**System Functionality Description:** Securities clearing and settlement platform managing trade execution, custody, and back-office operations.
+**System Functionality Description:** Securities clearing and settlement platform for trade processing, custody, and back-office operations.
 
 **Top 20-25 Key Entity Names:**
 - Trade
-- Security
-- Account
-- Position
 - Settlement
-- ClearingMember
-- Transaction
-- CustodyAccount
-- TradeConfirmation
-- SecurityMaster
-- Portfolio
-- ClearingInstruction
-- SettlementInstruction
-- CashMovement
-- SecurityMovement
+- Security
+- Position
+- Account
 - Counterparty
-- Broker
+- ClearingMember
+- TradeConfirmation
+- SettlementInstruction
+- CustodyAccount
+- SecuritiesMovement
+- CashMovement
+- CollateralManagement
+- MarginRequirement
 - TradeDate
 - SettlementDate
-- ClearingFee
-- MarginRequirement
-- CollateralManagement
-- RiskExposure
-- NetSettlement
+- CUSIP
+- ISIN
+- Broker
+- Dealer
 - ClearingHouse
+- NetSettlement
+- GrossSettlement
+- FailedTrade
+- TradeAmendment
 
 **Total Number of Tables:** 1391
 
@@ -41,34 +41,34 @@
 
 ### Source System: Cor Clearing
 
-**System Functionality Description:** Core clearing system for broker-dealer operations, trade processing, and regulatory compliance management.
+**System Functionality Description:** Core clearing system for trade execution, clearing operations, regulatory reporting, and settlement processing.
 
 **Top 20-25 Key Entity Names:**
-- BrokerDealer
 - Trade
-- Client
-- Account
-- Security
-- Position
-- Transaction
-- Commission
-- Settlement
+- Execution
 - ClearingAccount
-- TradeExecution
-- OrderManagement
-- SecurityPosition
+- Settlement
+- Position
+- Security
+- Client
+- BrokerDealer
+- TradeCapture
+- Allocation
+- Confirmation
+- Affirmation
+- SettlementInstruction
 - CashBalance
-- MarginAccount
+- SecuritiesBalance
+- Margin
+- Collateral
+- RiskExposure
 - RegulatoryReport
-- TradeConfirmation
-- ClientStatement
-- Fee
-- Dividend
+- TradeRepository
+- ClearingFee
+- NetObligations
+- DVPSettlement
+- FailManagement
 - CorporateAction
-- TaxLot
-- CostBasis
-- TradeAllocation
-- ComplianceRule
 
 **Total Number of Tables:** 2181
 
@@ -76,29 +76,22 @@
 
 ### Source System: DMClearing
 
-**System Functionality Description:** Data management clearing system supporting clearing operations data integration and reporting.
+**System Functionality Description:** Data mart for clearing analytics, reporting, and business intelligence on clearing operations.
 
 **Top 20-25 Key Entity Names:**
-- ClearingData
-- Trade
-- Settlement
-- Account
-- Position
-- Transaction
-- DataFeed
-- ReconciliationRecord
-- ClearingReport
-- DataQuality
-- AuditLog
-- DataMapping
-- SourceSystem
-- DataTransformation
-- ErrorLog
-- DataValidation
-- ReportingMetric
-- DataLineage
-- IntegrationJob
-- DataArchive
+- TradeFact
+- SettlementFact
+- PositionSnapshot
+- AccountDimension
+- SecurityDimension
+- DateDimension
+- CounterpartyDimension
+- VolumeMeasure
+- RevenueMeasure
+- RiskMeasure
+- PerformanceMetric
+- ClearingMetric
+- SettlementMetric
 
 **Total Number of Tables:** 13
 
@@ -106,7 +99,7 @@
 
 ### Source System: Jack Henry
 
-**System Functionality Description:** Core banking platform managing accounts, transactions, customer relationships, and banking operations.
+**System Functionality Description:** Core banking platform for account management, transaction processing, and customer relationship management.
 
 **Top 20-25 Key Entity Names:**
 - Customer
@@ -121,18 +114,18 @@
 - Fee
 - Card
 - Statement
-- CheckProcessing
+- CheckingAccount
+- SavingsAccount
+- CertificateOfDeposit
+- MoneyMarket
+- LoanApplication
+- Collateral
+- PaymentSchedule
 - ACHTransaction
 - WireTransfer
-- AccountHolder
-- ServiceCharge
-- OverdraftProtection
-- DirectDeposit
-- BillPayment
-- StopPayment
-- AccountStatus
-- TransactionHistory
-- CustomerRelationship
-- BankingService
+- CheckTransaction
+- ATMTransaction
+- OnlineBanking
+- MobileBanking
 
 **Total Number of Tables:** 1284
