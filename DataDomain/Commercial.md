@@ -6,34 +6,26 @@
 
 ### Source System: Aspire (Leasing)
 
-**System Functionality Description:** Leasing management platform handling lease origination, contracts, payments, and asset tracking.
+**System Functionality Description:** Leasing management system for equipment financing, lease administration, and payment processing.
 
 **Top 20-25 Key Entity Names:**
 - Lease
 - Lessee
 - Asset
-- LeaseContract
-- Payment
-- LeaseSchedule
-- Lessor
-- LeaseApplication
-- Collateral
+- LeaseAgreement
+- PaymentSchedule
 - LeasePayment
-- Residual
+- Lessor
+- Equipment
+- LeaseType
+- ResidualValue
+- Depreciation
 - LeaseTermination
-- AssetValuation
-- LeaseRenewal
+- MaintenanceContract
 - InsurancePolicy
-- MaintenanceRecord
-- LeaseModification
-- DepreciationSchedule
-- LeaseOption
-- SecurityDeposit
-- LeaseInvoice
-- AssetReturn
-- LeasePortfolio
-- VendorRelationship
-- LeaseCompliance
+- LeaseRenewal
+- BuyoutOption
+- LeaseAmendment
 
 **Total Number of Tables:** 17
 
@@ -41,33 +33,33 @@
 
 ### Source System: Cadence
 
-**System Functionality Description:** Commercial banking platform managing business loans, credit facilities, and commercial relationship management.
+**System Functionality Description:** Commercial lending platform for loan origination, credit analysis, and portfolio management.
 
 **Top 20-25 Key Entity Names:**
-- CommercialLoan
-- Business
-- CreditFacility
+- Loan
 - Borrower
+- LoanApplication
+- CreditAnalysis
 - Collateral
 - LoanAgreement
-- Payment
-- InterestRate
-- CreditLine
 - Guarantor
-- LoanOfficer
+- PaymentSchedule
+- LoanDisbursement
+- InterestRate
+- LoanCovenants
 - FinancialStatement
-- Covenant
-- Disbursement
-- Repayment
-- LoanReview
+- CreditRating
 - RiskRating
-- RelationshipManager
-- CommercialAccount
+- LoanReview
+- LoanModification
+- DefaultManagement
+- CollateralValuation
+- LoanSyndication
+- Participation
 - LoanCommitment
 - DrawRequest
-- LoanModification
+- LoanFee
 - ComplianceCheck
-- CreditAnalysis
 - LoanPortfolio
 
 **Total Number of Tables:** 81
@@ -76,19 +68,17 @@
 
 ### Source System: Epiq
 
-**System Functionality Description:** Bankruptcy and restructuring management system handling legal proceedings and asset recovery.
+**System Functionality Description:** Bankruptcy and restructuring management for legal proceedings and creditor claims processing.
 
 **Top 20-25 Key Entity Names:**
 - BankruptcyCase
-- Debtor
 - Creditor
 - Claim
+- Debtor
 - Asset
-- Proceeding
+- Liability
 - CourtFiling
 - Trustee
-- Distribution
-- LegalDocument
 
 **Total Number of Tables:** 8
 
@@ -96,33 +86,33 @@
 
 ### Source System: Salesforce
 
-**System Functionality Description:** Customer relationship management platform managing sales, opportunities, accounts, and customer interactions.
+**System Functionality Description:** Customer relationship management for sales, marketing, service, and commercial customer engagement.
 
 **Top 20-25 Key Entity Names:**
 - Account
 - Contact
-- Opportunity
 - Lead
+- Opportunity
 - Case
 - Campaign
-- Activity
 - Task
 - Event
 - Product
+- PriceBook
 - Quote
 - Contract
 - Order
+- Invoice
+- Activity
+- Note
+- Attachment
 - User
 - Territory
-- SalesStage
-- Pipeline
-- Forecast
-- CustomerInteraction
 - SalesTeam
-- OpportunityLineItem
-- AccountRelationship
+- Pipeline
+- ForecastCategory
+- OpportunityStage
 - LeadSource
-- CampaignMember
-- ServiceRequest
+- AccountTeam
 
 **Total Number of Tables:** 1773
