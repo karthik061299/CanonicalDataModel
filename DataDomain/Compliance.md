@@ -1,9 +1,141 @@
-# Business Unit: Compliance
+# Compliance Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: Compliance
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|----------------------|
-| Compliance | Archer | Manages governance, risk, compliance (GRC) framework, risk assessments, and regulatory compliance tracking. | - Risk<br>- Control<br>- Assessment<br>- Issue<br>- Finding<br>- Remediation<br>- Policy<br>- Regulation<br>- Audit<br>- Incident<br>- Loss<br>- Mitigation<br>- Workflow<br>- Approval<br>- Document<br>- Evidence<br>- Questionnaire<br>- Report<br>- Dashboard<br>- KRI<br>- Framework<br>- Compliance<br>- Exception<br>- Action Plan<br>- Owner | 2344 |
-| Compliance | DDC | Manages due diligence checks, customer screening, KYC verification, and compliance validation processes. | - Customer<br>- Screening<br>- Verification<br>- KYC<br>- DueDiligence<br>- Document<br>- Identity<br>- Address<br>- Watchlist<br>- Sanction<br>- PEP<br>- AdverseMedia<br>- RiskScore<br>- Alert<br>- Case<br>- Review<br>- Approval<br>- Status<br>- Source<br>- Match<br>- Investigation<br>- Resolution<br>- Audit<br>- Report<br>- Expiration | 8 |
-| Compliance | Fincen | Manages FinCEN regulatory reporting, suspicious activity reports (SAR), and currency transaction reports. | - SAR<br>- CTR<br>- Filing<br>- Transaction<br>- SuspiciousActivity<br>- Customer<br>- Account<br>- Narrative<br>- Subject<br>- Amount<br>- Date<br>- Location<br>- Institution<br>- Contact<br>- ActivityType<br>- Disposition<br>- Status<br>- Submission<br>- Acknowledgment<br>- Correction<br>- Amendment<br>- Batch<br>- Validation<br>- Error<br>- Audit | 4 |
+### Source System: Archer
+
+**System Functionality Description:** Manages governance, risk, compliance framework, regulatory requirements, audit management, and policy enforcement.
+
+**Top 20-25 Key Entity Names:**
+- RiskAssessment
+- ComplianceRequirement
+- Policy
+- Control
+- Audit
+- Finding
+- Remediation
+- RiskRegister
+- ControlTest
+- Exception
+- Issue
+- ActionPlan
+- RegulatoryChange
+- ComplianceObligation
+- ControlOwner
+- RiskIndicator
+- ComplianceMetric
+- PolicyAttestation
+- ControlEvidence
+- AuditProgram
+- RiskMitigation
+- ComplianceReport
+- RegulatoryExam
+- ViolationTracking
+- Corrective Action
+
+**Total Number of Tables:** 2344
+
+---
+
+### Source System: DDC
+
+**System Functionality Description:** Manages due diligence checks, customer verification, background screening, and compliance validation.
+
+**Top 20-25 Key Entity Names:**
+- DueDiligenceCase
+- Customer
+- VerificationCheck
+- BackgroundScreen
+- DocumentVerification
+- IdentityValidation
+- AddressVerification
+- CreditCheck
+- SanctionScreening
+- PEPCheck
+- AdverseMediaSearch
+- RiskRating
+- VerificationStatus
+- DocumentCollection
+- ThirdPartyData
+- VerificationResult
+- ExceptionHandling
+- ReviewQueue
+- ApprovalWorkflow
+- ComplianceFlag
+- RegulatoryRequirement
+- AuditTrail
+- DataSource
+- VerificationHistory
+- RiskScore
+
+**Total Number of Tables:** 8
+
+---
+
+### Source System: Fincen
+
+**System Functionality Description:** Manages Financial Crimes Enforcement Network reporting, suspicious activity reports, and anti-money laundering compliance.
+
+**Top 20-25 Key Entity Names:**
+- SuspiciousActivityReport
+- CurrencyTransactionReport
+- FinancialInstitution
+- SuspiciousActivity
+- Transaction
+- Subject
+- FilingStatus
+- NarrativeDescription
+- SupportingDocumentation
+- ReportingOfficer
+- FilingDate
+- ContinuingActivity
+- PriorReport
+- LawEnforcementContact
+- AccountInformation
+- TransactionLocation
+- InstrumentType
+- AmountInvolved
+- DateOfActivity
+- TypeOfSuspiciousActivity
+- IPAddress
+- ElectronicAddress
+- FinancialInstitutionType
+- BSAIdentifier
+- CorrectiveAction
+
+**Total Number of Tables:** 4
+
+---
+
+### Source System: Verint
+
+**System Functionality Description:** Manages compliance recording, voice surveillance, trade surveillance, and communication monitoring.
+
+**Top 20-25 Key Entity Names:**
+- Recording
+- Communication
+- Interaction
+- Agent
+- Supervisor
+- QualityEvaluation
+- ComplianceReview
+- CallMetadata
+- TranscriptData
+- ScreenCapture
+- Alert
+- PolicyViolation
+- ReviewQueue
+- EvaluationForm
+- CalibrationSession
+- DisputeResolution
+- RetentionPolicy
+- SearchQuery
+- PlaybackSession
+- AnnotationNote
+- ComplianceFlag
+- RegulatoryHold
+- ExportRequest
+- AuditLog
+- StorageLocation
+
+**Total Number of Tables:** 180
