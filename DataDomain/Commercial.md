@@ -1,10 +1,141 @@
-# Business Unit: Commercial
+# Commercial Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: Commercial
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|------------------------|
-| Commercial | Aspire (Leasing) | Equipment and asset leasing platform managing lease agreements, payments, and asset lifecycle. | - Lease<br>- Lessee<br>- Asset<br>- Equipment<br>- LeasePayment<br>- LeaseSchedule<br>- Lessor<br>- LeaseAgreement<br>- Residual<br>- Depreciation<br>- MaintenanceContract<br>- Insurance<br>- AssetValuation<br>- LeaseTermination<br>- Renewal<br>- Purchase Option<br>- LeaseType<br>- PaymentFrequency<br>- InterestRate<br>- SecurityDeposit<br>- LeaseAmendment<br>- AssetReturn<br>- EndOfLease<br>- LeaseAccounting<br>- TaxTreatment | 17 |
-| Commercial | Cadence | Commercial lending platform managing business loans, credit facilities, and relationship banking. | - CommercialLoan<br>- Borrower<br>- CreditFacility<br>- Collateral<br>- Covenant<br>- FinancialStatement<br>- CreditAnalysis<br>- LoanOfficer<br>- Relationship<br>- Commitment<br>- Drawdown<br>- Repayment<br>- InterestCalculation<br>- Fee<br>- Guarantee<br>- LienPosition<br>- RiskRating<br>- CreditReview<br>- LoanModification<br>- Refinancing<br>- Syndication<br>- Participation<br>- LoanDocument<br>- ComplianceCheck<br>- RegulatoryReport | 81 |
-| Commercial | Epiq | Bankruptcy and restructuring management system for commercial creditor services. | - BankruptcyCase<br>- Debtor<br>- Creditor<br>- Claim<br>- Asset<br>- Liability<br>- Trustee<br>- Court<br>- Filing<br>- Petition<br>- Schedule<br>- Plan<br>- Disclosure<br>- Meeting<br>- Objection<br>- Motion<br>- Order<br>- Distribution<br>- Recovery<br>- Priority<br>- SecuredClaim<br>- UnsecuredClaim<br>- AdministrativeClaim<br>- Liquidation<br>- Reorganization | 8 |
-| Commercial | Salesforce | Customer relationship management platform for commercial banking sales and client management. | - Account<br>- Contact<br>- Opportunity<br>- Lead<br>- Campaign<br>- Case<br>- Activity<br>- Task<br>- Event<br>- Product<br>- Quote<br>- Contract<br>- Order<br>- Pipeline<br>- Forecast<br>- Territory<br>- Team<br>- Relationship<br>- Interaction<br>- Note<br>- Attachment<br>- Dashboard<br>- Report<br>- Workflow<br>- Approval | 1773 |
+### Source System: Aspire (Leasing)
+
+**System Functionality Description:** Equipment and commercial leasing management system for lease origination, servicing, and portfolio management.
+
+**Top 20-25 Key Entity Names:**
+- Lease
+- Lessee
+- Lessor
+- Equipment
+- Asset
+- Payment
+- Schedule
+- Contract
+- Term
+- Rate
+- Residual
+- Invoice
+- Receipt
+- Collateral
+- Insurance
+- Maintenance
+- Renewal
+- Termination
+- Buyout
+- Portfolio
+- Vendor
+- Dealer
+- Commission
+- Fee
+- Document
+
+**Total Number of Tables:** 17
+
+---
+
+### Source System: Cadence
+
+**System Functionality Description:** Commercial loan origination and management system for credit analysis and relationship banking.
+
+**Top 20-25 Key Entity Names:**
+- Loan
+- Borrower
+- Guarantor
+- Application
+- Credit
+- Collateral
+- Appraisal
+- Underwriting
+- Approval
+- Disbursement
+- Payment
+- Schedule
+- InterestRate
+- Fee
+- Covenant
+- Compliance
+- Document
+- Relationship
+- Account
+- Transaction
+- Balance
+- Maturity
+- Renewal
+- Amendment
+- RiskRating
+
+**Total Number of Tables:** 81
+
+---
+
+### Source System: Epiq
+
+**System Functionality Description:** Bankruptcy and restructuring management system for commercial debt recovery and legal proceedings.
+
+**Top 20-25 Key Entity Names:**
+- Case
+- Debtor
+- Creditor
+- Claim
+- Asset
+- Liability
+- Petition
+- Filing
+- Hearing
+- Order
+- Plan
+- Trustee
+- Attorney
+- Document
+- Notice
+- Proof
+- Distribution
+- Payment
+- Schedule
+- Statement
+- Objection
+- Motion
+- Docket
+- Court
+- Status
+
+**Total Number of Tables:** 8
+
+---
+
+### Source System: Salesforce
+
+**System Functionality Description:** Customer relationship management platform for sales, marketing, and service operations.
+
+**Top 20-25 Key Entity Names:**
+- Account
+- Contact
+- Lead
+- Opportunity
+- Campaign
+- Case
+- Task
+- Event
+- Activity
+- Product
+- Quote
+- Contract
+- Order
+- Invoice
+- Payment
+- User
+- Role
+- Territory
+- Forecast
+- Pipeline
+- Report
+- Dashboard
+- Email
+- Note
+- Attachment
+
+**Total Number of Tables:** 1773
