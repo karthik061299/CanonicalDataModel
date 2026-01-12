@@ -1,71 +1,8 @@
-# HR Business Unit - Source Systems Analysis
+# Business Unit: HR
 
-## Business Unit: HR
+## Source System Analysis
 
-### Source System: HR
-
-**System Functionality Description:** Human resources management system for employee data, benefits administration, and HR operations.
-
-**Top 20-25 Key Entity Names:**
-- Employee
-- Position
-- Department
-- Job
-- Compensation
-- Salary
-- Benefit
-- Enrollment
-- Dependent
-- Performance
-- Review
-- Goal
-- Training
-- Certification
-- Leave
-- Absence
-- Timesheet
-- Attendance
-- Hire
-- Termination
-- Transfer
-- Promotion
-- Organization
-- Manager
-- AuditLog
-
-**Total Number of Tables:** 8
-
----
-
-### Source System: Workday
-
-**System Functionality Description:** Cloud-based human capital management system for HR, payroll, talent, and workforce planning.
-
-**Top 20-25 Key Entity Names:**
-- Worker
-- Employee
-- Position
-- Job
-- Organization
-- Department
-- Location
-- Compensation
-- Payroll
-- Benefit
-- TimeTracking
-- Absence
-- Leave
-- Performance
-- Goal
-- Review
-- Talent
-- Recruitment
-- Candidate
-- Application
-- Onboarding
-- Training
-- Development
-- Succession
-- Analytics
-
-**Total Number of Tables:** 9
+| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
+|--------------|-------------------|---------------------|---------------------------|----------------------|
+| HR | HR | Manages human resources operations including employee records and HR administration. | - Employee<br>- Department<br>- Position<br>- Job<br>- Compensation<br>- Benefit<br>- Leave<br>- Attendance<br>- Performance<br>- Review<br>- Training<br>- Certification<br>- Hire<br>- Termination<br>- Transfer<br>- Promotion<br>- Organization<br>- Manager<br>- Payroll<br>- TimeSheet<br>- Policy<br>- Compliance<br>- Document<br>- Emergency<br>- Dependent | 8 |
+| HR | Workday | Manages enterprise human capital management, payroll, and workforce planning. | - Worker<br>- Employee<br>- Contingent<br>- Position<br>- Job<br>- Organization<br>- Compensation<br>- Benefit<br>- Payroll<br>- TimeTracking<br>- Absence<br>- Leave<br>- Performance<br>- Goal<br>- Review<br>- Talent<br>- Recruitment<br>- Candidate<br>- Onboarding<br>- Learning<br>- Training<br>- Succession<br>- Career<br>- Analytics<br>- Report | 9 |
