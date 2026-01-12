@@ -6,34 +6,34 @@
 
 ### Source System: Legal Tracker
 
-**System Functionality Description:** Legal matter management system tracking cases, litigation, contracts, and legal spend.
+**System Functionality Description:** Legal matter management system for case tracking, legal spend, and outside counsel management.
 
 **Top 20-25 Key Entity Names:**
 - LegalMatter
 - Case
-- Contract
-- Litigation
 - Attorney
 - LegalInvoice
-- Matter Type
+- TimeEntry
+- Expense
 - Client
-- CourtCase
-- LegalDocument
-- BillingEntry
+- LawFirm
+- MatterType
+- CaseStatus
+- BillingRate
+- LegalBudget
+- MatterPhase
+- TaskCode
+- InvoiceApproval
 - LegalSpend
 - OutsideCounsel
-- CaseStatus
-- ContractObligation
-- LegalHold
-- MatterBudget
-- LitigationPhase
-- SettlementAgreement
-- LegalTask
 - MatterTeam
-- CaseOutcome
-- ContractClause
-- LegalRisk
-- MatterTimeline
+- CaseDocument
+- LitigationHold
+- SettlementAgreement
+- CourtFiling
+- LegalReview
+- MatterMetrics
+- BillingGuidelines
 
 **Total Number of Tables:** 36
 
@@ -41,27 +41,17 @@
 
 ### Source System: PACER
 
-**System Functionality Description:** Public Access to Court Electronic Records system accessing federal court documents and case information.
+**System Functionality Description:** Public access to court electronic records for federal court case information and filings.
 
 **Top 20-25 Key Entity Names:**
 - CourtCase
+- CourtFiling
 - Docket
-- CourtDocument
 - Party
 - Attorney
 - Judge
-- CourtFiling
-- CaseNumber
-- DocketEntry
-- CourtOrder
+- CourtDocument
 - CaseStatus
-- Hearing
-- CourtJurisdiction
-- CaseType
-- FilingDate
-- DocumentType
-- CaseParticipant
-- CourtLocation
-- CaseSummary
+- HearingSchedule
 
 **Total Number of Tables:** 9
