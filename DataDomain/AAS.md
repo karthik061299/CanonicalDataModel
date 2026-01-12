@@ -1,36 +1,7 @@
-# AAS Business Unit - Source Systems Analysis
+# Business Unit: AAS
 
-## Business Unit: AAS
+## Source System Analysis
 
-### Source System: ALF
-
-**System Functionality Description:** Asset and Liability management system for financial risk assessment, balance sheet optimization, and regulatory compliance.
-
-**Top 20-25 Key Entity Names:**
-- Asset
-- Liability
-- BalanceSheet
-- RiskAssessment
-- InterestRate
-- Maturity
-- Portfolio
-- Hedge
-- Cashflow
-- Duration
-- Scenario
-- RegulatoryReport
-- LiquidityRatio
-- CapitalAdequacy
-- StressTest
-- MarketRisk
-- CreditRisk
-- Gap
-- Instrument
-- Valuation
-- Sensitivity
-- Forecast
-- Benchmark
-- Limit
-- Exposure
-
-**Total Number of Tables:** 68
+| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
+|--------------|-------------------|---------------------|---------------------------|----------------------|
+| AAS | ALF | Manages automated lending and financing workflows for asset-based lending operations. | - Customer<br>- Loan<br>- Asset<br>- Collateral<br>- LoanApplication<br>- Payment<br>- InterestRate<br>- LoanAgreement<br>- Borrower<br>- CoBorrower<br>- LoanSchedule<br>- Transaction<br>- Account<br>- LoanStatus<br>- Appraisal<br>- LienPosition<br>- PaymentSchedule<br>- FinancialStatement<br>- CreditScore<br>- LoanDocument<br>- Disbursement<br>- LoanOfficer<br>- Branch<br>- Product<br>- Fee | 68 |
