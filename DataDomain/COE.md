@@ -1,29 +1,761 @@
-# Business Unit: COE
+# COE Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: COE
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|------------------------|
-| COE | AD | Active Directory managing user authentication, authorization, and organizational directory services. | - User<br>- Group<br>- OrganizationalUnit<br>- Domain<br>- Computer<br>- SecurityPolicy<br>- AccessControl<br>- Permission<br>- Role<br>- Authentication<br>- UserProfile<br>- GroupMembership | 12 |
-| COE | AdminPortal | Administrative portal for system configuration, user management, and operational oversight. | - Administrator<br>- Configuration<br>- SystemSetting<br>- UserManagement<br>- AccessLog<br>- AuditTrail | 2 |
-| COE | ADO | Azure DevOps managing software development, version control, and CI/CD pipelines. | - Project<br>- Repository<br>- Pipeline<br>- Build<br>- Release<br>- WorkItem<br>- Sprint<br>- Backlog<br>- Commit<br>- PullRequest<br>- Branch<br>- TestCase<br>- Deployment<br>- Artifact<br>- Board | 0 |
-| COE | Archive | Data archival system for long-term storage, retention, and retrieval of historical records. | - ArchivedDocument<br>- RetentionPolicy<br>- ArchiveLocation<br>- RetrievalRequest<br>- DocumentMetadata<br>- StorageMedia<br>- ArchiveDate<br>- ExpirationDate<br>- ComplianceTag<br>- AccessHistory<br>- RestorePoint<br>- BackupSet<br>- ArchiveIndex<br>- DocumentType<br>- RetentionSchedule<br>- LegalHold<br>- DispositionRule<br>- ArchiveStatus<br>- StorageLocation<br>- DataClassification | 1000 |
-| COE | DataMart | Departmental data warehouse providing subject-specific data for analysis and reporting. | - Dimension<br>- Fact<br>- Measure<br>- DataModel<br>- ETLProcess<br>- DataSource<br>- Aggregate<br>- Hierarchy<br>- Attribute<br>- Metric<br>- KPI<br>- Report<br>- Dashboard<br>- DataRefresh<br>- DataQuality<br>- BusinessRule<br>- Calculation<br>- Filter<br>- Parameter<br>- Query | 20 |
-| COE | Decisions | Decision management system for business rules, workflow automation, and process orchestration. | - DecisionRule<br>- BusinessRule<br>- Workflow<br>- Process<br>- Task<br>- Condition<br>- Action<br>- RuleSet<br>- DecisionTable<br>- ProcessInstance<br>- WorkflowStep<br>- Approval<br>- Escalation<br>- Notification<br>- ProcessVariable<br>- RuleExecution<br>- DecisionLog<br>- ProcessMetrics | 18 |
-| COE | DocuSign | Electronic signature platform managing document signing, workflows, and digital agreements. | - Envelope<br>- Document<br>- Signer<br>- Signature<br>- Template<br>- Workflow<br>- Recipient<br>- SigningSession<br>- AuditTrail<br>- Certificate<br>- Field<br>- Tab<br>- Status<br>- Notification<br>- Authentication<br>- CompletedDocument<br>- SigningOrder | 3 |
-| COE | DWSupport | Data warehouse support system managing metadata, data lineage, and operational monitoring. | - DataSource<br>- ETLJob<br>- DataLineage<br>- Metadata<br>- DataQuality<br>- JobSchedule<br>- ErrorLog<br>- PerformanceMetric<br>- DataProfile<br>- Dependency<br>- Transformation<br>- LoadStatistics<br>- DataCatalog<br>- BusinessGlossary<br>- DataOwner<br>- DataSteward<br>- DataDomain<br>- QualityRule<br>- Incident<br>- Resolution<br>- ChangeRequest<br>- Documentation<br>- SupportTicket<br>- MonitoringAlert<br>- SystemHealth | 1679 |
-| COE | EnterpriseBI | Enterprise business intelligence platform for analytics, reporting, and data visualization. | - Report<br>- Dashboard<br>- Dataset<br>- DataSource<br>- Visualization<br>- KPI<br>- Metric<br>- Dimension<br>- Measure<br>- Filter<br>- Parameter<br>- Subscription<br>- Schedule<br>- User<br>- Workspace<br>- Folder<br>- Permission<br>- DataModel<br>- Calculation<br>- Bookmark<br>- Alert<br>- Export<br>- Snapshot<br>- RefreshHistory<br>- UsageStatistics | 91 |
-| COE | ETL | Extract, Transform, Load platform managing data integration and movement across systems. | - ETLJob<br>- DataSource<br>- DataTarget<br>- Transformation<br>- Mapping<br>- Schedule<br>- JobExecution<br>- ErrorHandling<br>- DataFlow<br>- Connection<br>- Package<br>- Task<br>- Variable<br>- Parameter<br>- LogEntry<br>- Performance<br>- Dependency<br>- Validation<br>- DataQuality<br>- Checkpoint | 20 |
-| COE | Evo | Evolution platform for application development, deployment, and lifecycle management. | - Application<br>- Module<br>- Component<br>- Version<br>- Deployment<br>- Environment<br>- Configuration<br>- Release<br>- Build<br>- Dependency<br>- Change<br>- Issue<br>- Feature<br>- Bug<br>- TestCase<br>- Documentation | 6 |
-| COE | ExcelETL | Excel-based ETL tool for data extraction, transformation, and loading from spreadsheets. | - Workbook<br>- Worksheet<br>- DataRange<br>- Mapping<br>- Transformation<br>- ValidationRule<br>- ImportJob<br>- DataSource<br>- TargetTable<br>- ErrorLog<br>- Schedule<br>- Template<br>- Formula<br>- DataType<br>- Column<br>- Row<br>- Cell<br>- Format<br>- Macro<br>- RefreshConnection | 359 |
-| COE | ExcelFile – Essentia | Essential Excel file management system for document storage and retrieval. | - ExcelFile<br>- FileMetadata<br>- Version<br>- AccessControl<br>- FileLocation<br>- Owner<br>- ModificationHistory<br>- FileSize<br>- FileType<br>- StoragePath | 2 |
-| COE | Five9 | Cloud contact center platform managing customer interactions, calls, and agent performance. | - Call<br>- Agent<br>- Campaign<br>- Contact<br>- Queue<br>- Skill<br>- Disposition<br>- Recording<br>- Script<br>- IVR<br>- CallFlow<br>- Schedule<br>- Performance<br>- Quality<br>- Survey<br>- Interaction<br>- Channel<br>- Session<br>- Metric<br>- Report | 32 |
-| COE | FraudLinks | Fraud detection and prevention system analyzing transactions and identifying suspicious patterns. | - FraudCase<br>- Alert<br>- Transaction<br>- Rule<br>- Score<br>- Investigation<br>- Pattern<br>- Anomaly<br>- RiskFactor<br>- Disposition<br>- Evidence<br>- Suspect<br>- Victim<br>- FraudType<br>- Status<br>- Resolution<br>- Workflow<br>- Analyst | 8 |
-| COE | Intranet | Internal corporate portal for employee communication, resources, and collaboration. | - Page<br>- Content<br>- User<br>- Department<br>- Announcement<br>- Document<br>- News<br>- Event<br>- Policy<br>- Procedure<br>- Form<br>- Link<br>- Category<br>- Tag<br>- Comment<br>- Like<br>- Share<br>- Navigation<br>- Permission<br>- Search | 82 |
-| COE | Outsystems | Low-code development platform for rapid application development and deployment. | - Application<br>- Module<br>- Screen<br>- Entity<br>- Action<br>- Process<br>- Integration<br>- User<br>- Role<br>- Theme<br>- Resource<br>- Extension<br>- Timer<br>- Email<br>- Site<br>- Environment<br>- Deployment<br>- Version<br>- Dependency<br>- Log | 434 |
-| COE | OSPRDI | Operating system platform for research, development, and innovation initiatives. | - Project<br>- Research<br>- Innovation<br>- Experiment<br>- Result<br>- Researcher<br>- Publication<br>- Patent<br>- Collaboration<br>- Funding<br>- Milestone<br>- Deliverable<br>- Resource<br>- Equipment<br>- Data<br>- Analysis<br>- Report<br>- Review<br>- Approval<br>- Budget | 57 |
-| COE | ReportServer | Centralized reporting server managing report generation, distribution, and scheduling. | - Report<br>- Schedule<br>- Subscription<br>- Parameter<br>- DataSource<br>- Dataset<br>- Snapshot<br>- Execution<br>- Cache<br>- Folder<br>- Permission<br>- User<br>- Delivery<br>- Format<br>- History<br>- Log<br>- Performance<br>- Configuration<br>- Catalog<br>- Resource | 72 |
-| COE | SharePoint | Collaboration platform for document management, team sites, and content sharing. | - Site<br>- Library<br>- List<br>- Document<br>- Folder<br>- Item<br>- User<br>- Group<br>- Permission<br>- Version<br>- Workflow<br>- ContentType<br>- Column<br>- View<br>- Page<br>- WebPart<br>- Search<br>- Metadata<br>- Tag<br>- Taxonomy<br>- Term<br>- Navigation<br>- Alert<br>- Subscription<br>- Audit | 179 |
-| COE | Snow | IT asset management system tracking software licenses, hardware, and compliance. | - Asset<br>- License<br>- Software<br>- Hardware<br>- Computer<br>- User<br>- Contract<br>- Vendor<br>- Purchase<br>- Deployment<br>- Compliance<br>- Audit<br>- Usage<br>- Cost<br>- Allocation<br>- Renewal<br>- Maintenance<br>- Inventory<br>- Discovery<br>- Reconciliation | 5 |
-| COE | SYNRGVD01 | Synergy virtual desktop infrastructure managing remote desktop sessions and resources. | - VirtualDesktop<br>- Session<br>- User<br>- Host<br>- Pool<br>- Image<br>- Application<br>- Resource<br>- Connection<br>- Policy<br>- Performance<br>- Monitoring<br>- License<br>- Storage<br>- Network<br>- Security<br>- Configuration<br>- Deployment<br>- Maintenance<br>- Backup | 21 |
-| COE | WS repo | Web services repository managing API definitions, services, and integration endpoints. | - WebService<br>- API<br>- Endpoint<br>- Method<br>- Request<br>- Response<br>- Schema<br>- Contract<br>- Version<br>- Documentation<br>- Consumer<br>- Provider<br>- Authentication<br>- Authorization<br>- Monitoring<br>- Log<br>- Performance<br>- Error<br>- Throttling<br>- Rate Limit | 6 |
+### Source System: AD
+
+**System Functionality Description:** Active Directory for identity management, authentication, authorization, and user access control.
+
+**Top 20-25 Key Entity Names:**
+- User
+- Group
+- OrganizationalUnit
+- Domain
+- Computer
+- SecurityGroup
+- DistributionGroup
+- Permission
+- Role
+- Policy
+- Authentication
+- Authorization
+- AccessControl
+- DirectoryObject
+- Attribute
+- Schema
+- Forest
+- Site
+- Replication
+- GPO
+
+**Total Number of Tables:** 12
+
+---
+
+### Source System: AdminPortal
+
+**System Functionality Description:** Administrative portal for system configuration, user management, and operational administration.
+
+**Top 20-25 Key Entity Names:**
+- Administrator
+- User
+- Role
+- Permission
+- Configuration
+- Setting
+- AuditLog
+- Session
+- Access
+- Menu
+- Function
+- Workflow
+- Approval
+- Notification
+- Dashboard
+- Report
+- Module
+- Feature
+- Profile
+- Preference
+
+**Total Number of Tables:** 2
+
+---
+
+### Source System: ADO
+
+**System Functionality Description:** Azure DevOps for software development lifecycle, project management, and continuous integration/deployment.
+
+**Top 20-25 Key Entity Names:**
+- Project
+- WorkItem
+- Sprint
+- Backlog
+- Task
+- Bug
+- Feature
+- UserStory
+- Epic
+- Repository
+- Branch
+- Commit
+- PullRequest
+- Build
+- Release
+- Pipeline
+- Artifact
+- TestCase
+- TestRun
+- Team
+
+**Total Number of Tables:** 0
+
+---
+
+### Source System: Archive
+
+**System Functionality Description:** Enterprise data archival system for long-term storage, retention, and compliance management.
+
+**Top 20-25 Key Entity Names:**
+- Archive
+- Document
+- Record
+- Metadata
+- RetentionPolicy
+- StorageLocation
+- ArchiveRequest
+- RetrievalRequest
+- Version
+- Classification
+- Category
+- Index
+- Search
+- AuditTrail
+- Disposition
+- LegalHold
+- Compliance
+- Retention
+- Purge
+- Backup
+- Restore
+- AccessLog
+- Encryption
+- Compression
+- Storage
+
+**Total Number of Tables:** 1000
+
+---
+
+### Source System: DataMart
+
+**System Functionality Description:** Subject-oriented data mart for departmental analytics, reporting, and business intelligence.
+
+**Top 20-25 Key Entity Names:**
+- FactTable
+- DimensionTable
+- Measure
+- Metric
+- DateDimension
+- CustomerDimension
+- ProductDimension
+- AccountDimension
+- TransactionFact
+- AggregateFact
+- Hierarchy
+- Attribute
+- Report
+- Dashboard
+- KPI
+- Cube
+- Partition
+- Index
+- ETLLog
+- DataQuality
+
+**Total Number of Tables:** 20
+
+---
+
+### Source System: Decisions
+
+**System Functionality Description:** Business rules engine for automated decision-making, workflow automation, and process management.
+
+**Top 20-25 Key Entity Names:**
+- Rule
+- Decision
+- Workflow
+- Process
+- Step
+- Condition
+- Action
+- Event
+- Trigger
+- Variable
+- Parameter
+- Expression
+- Logic
+- Outcome
+- Approval
+- Routing
+- Task
+- Assignment
+- Notification
+- AuditLog
+- Version
+- RuleSet
+- DecisionTable
+- Policy
+- Execution
+
+**Total Number of Tables:** 18
+
+---
+
+### Source System: DocuSign
+
+**System Functionality Description:** Electronic signature platform for document signing, workflow automation, and agreement management.
+
+**Top 20-25 Key Entity Names:**
+- Envelope
+- Document
+- Recipient
+- Signer
+- Signature
+- Template
+- Workflow
+- Field
+- Tab
+- Status
+- Event
+- Notification
+- Authentication
+- Certificate
+- AuditTrail
+- Account
+- User
+- Brand
+- CustomField
+- Attachment
+
+**Total Number of Tables:** 3
+
+---
+
+### Source System: DWSupport
+
+**System Functionality Description:** Data warehouse support system for ETL operations, data quality, and warehouse maintenance.
+
+**Top 20-25 Key Entity Names:**
+- ETLJob
+- DataLoad
+- SourceSystem
+- TargetTable
+- Transformation
+- DataQuality
+- ErrorLog
+- JobSchedule
+- Dependency
+- Metadata
+- Lineage
+- Mapping
+- ValidationRule
+- Reconciliation
+- AuditLog
+- Performance
+- Monitor
+- Alert
+- Configuration
+- Parameter
+- Execution
+- Status
+- DataProfile
+- Statistic
+- Index
+
+**Total Number of Tables:** 1679
+
+---
+
+### Source System: EnterpriseBI
+
+**System Functionality Description:** Enterprise business intelligence platform for reporting, analytics, and data visualization.
+
+**Top 20-25 Key Entity Names:**
+- Report
+- Dashboard
+- Dataset
+- DataSource
+- Visualization
+- Chart
+- Table
+- KPI
+- Metric
+- Dimension
+- Measure
+- Filter
+- Parameter
+- Subscription
+- Schedule
+- User
+- Role
+- Permission
+- Folder
+- Workspace
+- Bookmark
+- Alert
+- Export
+- Refresh
+- Cache
+
+**Total Number of Tables:** 91
+
+---
+
+### Source System: ETL
+
+**System Functionality Description:** Extract, Transform, Load platform for data integration, migration, and transformation processes.
+
+**Top 20-25 Key Entity Names:**
+- Job
+- Package
+- Task
+- Connection
+- Source
+- Target
+- Transformation
+- Mapping
+- Schedule
+- Execution
+- Log
+- Error
+- Variable
+- Parameter
+- Configuration
+- Workflow
+- Dependency
+- Trigger
+- Event
+- Notification
+- Performance
+- Metadata
+- Lineage
+- DataQuality
+- Validation
+
+**Total Number of Tables:** 20
+
+---
+
+### Source System: Evo
+
+**System Functionality Description:** Evolution platform for digital transformation, process automation, and customer experience management.
+
+**Top 20-25 Key Entity Names:**
+- Customer
+- Account
+- Transaction
+- Product
+- Service
+- Channel
+- Interaction
+- Event
+- Workflow
+- Process
+- Task
+- Case
+- Document
+- Communication
+- Notification
+- User
+- Role
+- Permission
+- Configuration
+- AuditLog
+
+**Total Number of Tables:** 6
+
+---
+
+### Source System: ExcelETL
+
+**System Functionality Description:** Excel-based ETL tool for spreadsheet data extraction, transformation, and loading.
+
+**Top 20-25 Key Entity Names:**
+- Workbook
+- Worksheet
+- Cell
+- Range
+- Formula
+- DataSource
+- Mapping
+- Transformation
+- Validation
+- Import
+- Export
+- Template
+- Configuration
+- Schedule
+- Job
+- Log
+- Error
+- Format
+- Column
+- Row
+- DataType
+- Lookup
+- Reference
+- Calculation
+- Aggregate
+
+**Total Number of Tables:** 359
+
+---
+
+### Source System: ExcelFile – Essentia
+
+**System Functionality Description:** Excel file management system for essential data processing and spreadsheet operations.
+
+**Top 20-25 Key Entity Names:**
+- File
+- Workbook
+- Worksheet
+- Data
+- Template
+- Version
+- Metadata
+- Upload
+- Download
+- Import
+- Export
+- Validation
+- Format
+- Column
+- Row
+- Cell
+- Formula
+- Reference
+- AuditLog
+- User
+
+**Total Number of Tables:** 2
+
+---
+
+### Source System: Five9
+
+**System Functionality Description:** Cloud contact center platform for call management, agent operations, and customer service analytics.
+
+**Top 20-25 Key Entity Names:**
+- Call
+- Agent
+- Campaign
+- Queue
+- Customer
+- Interaction
+- Recording
+- Disposition
+- Skill
+- Schedule
+- Shift
+- Performance
+- Metric
+- Report
+- Dashboard
+- IVR
+- Script
+- Transfer
+- Conference
+- Voicemail
+- SMS
+- Email
+- Chat
+- Survey
+- Quality
+
+**Total Number of Tables:** 32
+
+---
+
+### Source System: FraudLinks
+
+**System Functionality Description:** Fraud detection and prevention system for transaction monitoring and risk management.
+
+**Top 20-25 Key Entity Names:**
+- Transaction
+- Alert
+- Case
+- Rule
+- Score
+- Customer
+- Account
+- Pattern
+- Anomaly
+- Investigation
+- Evidence
+- Disposition
+- RiskLevel
+- Threshold
+- Model
+- Scenario
+- Watchlist
+- Blacklist
+- Whitelist
+- AuditLog
+- Report
+- Metric
+- Trend
+- Incident
+- Action
+
+**Total Number of Tables:** 8
+
+---
+
+### Source System: Intranet
+
+**System Functionality Description:** Internal employee portal for communication, collaboration, and corporate information sharing.
+
+**Top 20-25 Key Entity Names:**
+- Employee
+- Department
+- Page
+- Content
+- Article
+- Announcement
+- Document
+- Policy
+- Procedure
+- Form
+- Calendar
+- Event
+- Directory
+- Team
+- Project
+- Discussion
+- Comment
+- Like
+- Share
+- Search
+- Navigation
+- Menu
+- Widget
+- Permission
+- AuditLog
+
+**Total Number of Tables:** 82
+
+---
+
+### Source System: Outsystems
+
+**System Functionality Description:** Low-code application development platform for rapid application delivery and enterprise mobility.
+
+**Top 20-25 Key Entity Names:**
+- Application
+- Module
+- Screen
+- Entity
+- Attribute
+- Action
+- Process
+- Integration
+- API
+- User
+- Role
+- Permission
+- Workflow
+- Form
+- Report
+- Dashboard
+- Database
+- Table
+- Query
+- Logic
+- Event
+- Timer
+- Email
+- Notification
+- Log
+
+**Total Number of Tables:** 434
+
+---
+
+### Source System: OSPRDI
+
+**System Functionality Description:** OutSystems production and development infrastructure for application deployment and management.
+
+**Top 20-25 Key Entity Names:**
+- Application
+- Environment
+- Deployment
+- Version
+- Module
+- Server
+- Database
+- Configuration
+- Log
+- Error
+- Performance
+- Monitor
+- Alert
+- User
+- Session
+- Request
+- Response
+- API
+- Integration
+- Service
+- Job
+- Schedule
+- Backup
+- Restore
+- AuditLog
+
+**Total Number of Tables:** 57
+
+---
+
+### Source System: ReportServer
+
+**System Functionality Description:** Centralized reporting server for report generation, distribution, and subscription management.
+
+**Top 20-25 Key Entity Names:**
+- Report
+- Subscription
+- Schedule
+- Dataset
+- DataSource
+- Parameter
+- Filter
+- Export
+- Format
+- Distribution
+- Email
+- User
+- Role
+- Permission
+- Folder
+- Catalog
+- Execution
+- History
+- Cache
+- Snapshot
+- Log
+- Performance
+- Configuration
+- Alert
+- Notification
+
+**Total Number of Tables:** 72
+
+---
+
+### Source System: SharePoint
+
+**System Functionality Description:** Collaboration platform for document management, content sharing, and team collaboration.
+
+**Top 20-25 Key Entity Names:**
+- Site
+- Library
+- Document
+- Folder
+- List
+- Item
+- Page
+- User
+- Group
+- Permission
+- Version
+- Metadata
+- ContentType
+- Column
+- View
+- Workflow
+- Task
+- Calendar
+- Event
+- Discussion
+- Wiki
+- Blog
+- Search
+- Navigation
+- AuditLog
+
+**Total Number of Tables:** 179
+
+---
+
+### Source System: Snow
+
+**System Functionality Description:** ServiceNow IT service management platform for incident, problem, and change management.
+
+**Top 20-25 Key Entity Names:**
+- Incident
+- Problem
+- Change
+- Request
+- Task
+- User
+- Group
+- Assignment
+- Priority
+- Status
+- Category
+- ConfigurationItem
+- Asset
+- Service
+- SLA
+- Workflow
+- Approval
+- Notification
+- Knowledge
+- Article
+- Comment
+- Attachment
+- AuditLog
+- Report
+- Metric
+
+**Total Number of Tables:** 5
+
+---
+
+### Source System: SYNRGVD01
+
+**System Functionality Description:** Synergy virtual desktop infrastructure for remote access and desktop virtualization.
+
+**Top 20-25 Key Entity Names:**
+- VirtualDesktop
+- User
+- Session
+- Connection
+- Application
+- Resource
+- Pool
+- Host
+- Server
+- Policy
+- Profile
+- Configuration
+- Performance
+- Monitor
+- Log
+- Event
+- Alert
+- License
+- Access
+- Authentication
+
+**Total Number of Tables:** 21
+
+---
+
+### Source System: WS repo
+
+**System Functionality Description:** Web services repository for API management, service catalog, and integration documentation.
+
+**Top 20-25 Key Entity Names:**
+- WebService
+- API
+- Endpoint
+- Method
+- Request
+- Response
+- Schema
+- Documentation
+- Version
+- Authentication
+- Authorization
+- Consumer
+- Provider
+- Contract
+- SLA
+- Monitor
+- Log
+- Error
+- Performance
+- Metric
+
+**Total Number of Tables:** 6
