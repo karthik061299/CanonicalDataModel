@@ -1,11 +1,206 @@
-# Business Unit: Commercial
+# Commercial Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: Commercial
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|----------------------|
-| Commercial | Aspire (Leasing) | Manages commercial equipment leasing, lease contracts, payment schedules, and asset financing operations. | - Lease<br>- Lessee<br>- Lessor<br>- Equipment<br>- Asset<br>- Contract<br>- Payment<br>- Schedule<br>- Invoice<br>- Amortization<br>- Residual<br>- Term<br>- Rate<br>- Collateral<br>- Insurance<br>- Maintenance<br>- Renewal<br>- Termination<br>- Vendor<br>- Depreciation<br>- Buyout<br>- Fee<br>- Tax<br>- Document<br>- Approval | 17 |
-| Commercial | Cadence | Manages commercial banking workflow, loan origination, credit analysis, and commercial lending operations. | - Loan<br>- Borrower<br>- Application<br>- CreditAnalysis<br>- Collateral<br>- Guarantor<br>- Covenant<br>- Commitment<br>- Disbursement<br>- Payment<br>- InterestRate<br>- Fee<br>- Document<br>- Approval<br>- Workflow<br>- Underwriting<br>- RiskRating<br>- FinancialStatement<br>- Relationship<br>- Portfolio<br>- Maturity<br>- Amortization<br>- Servicing<br>- Compliance<br>- Reporting | 81 |
-| Commercial | Epiq | Manages bankruptcy and legal case management for commercial loan workouts and distressed asset recovery. | - Case<br>- Debtor<br>- Creditor<br>- Claim<br>- Bankruptcy<br>- Petition<br>- Schedule<br>- Asset<br>- Liability<br>- Trustee<br>- Court<br>- Hearing<br>- Motion<br>- Order<br>- Document<br>- Filing<br>- Distribution<br>- Recovery<br>- Plan<br>- Confirmation<br>- Discharge<br>- Adversary<br>- Notice<br>- Docket<br>- Status | 8 |
-| Commercial | Salesforce | Manages customer relationship management, sales pipeline, opportunities, and commercial client interactions. | - Account<br>- Contact<br>- Lead<br>- Opportunity<br>- Campaign<br>- Case<br>- Task<br>- Event<br>- Activity<br>- Product<br>- Quote<br>- Contract<br>- Order<br>- Pipeline<br>- Forecast<br>- Territory<br>- Team<br>- User<br>- Role<br>- Report<br>- Dashboard<br>- Workflow<br>- Approval<br>- Email<br>- Note | 1773 |
-| Commercial | Salesforce | Manages customer relationship management, sales pipeline, opportunities, and commercial client interactions. | - Account<br>- Contact<br>- Lead<br>- Opportunity<br>- Campaign<br>- Case<br>- Task<br>- Event<br>- Activity<br>- Product<br>- Quote<br>- Contract<br>- Order<br>- Pipeline<br>- Forecast<br>- Territory<br>- Team<br>- User<br>- Role<br>- Report<br>- Dashboard<br>- Workflow<br>- Approval<br>- Email<br>- Note | 1773 |
+### Source System: Aspire (Leasing)
+
+**System Functionality Description:** Manages equipment leasing, lease contracts, payment schedules, and asset financing for commercial customers.
+
+**Top 20-25 Key Entity Names:**
+- LeaseContract
+- Lessee
+- Equipment
+- Asset
+- PaymentSchedule
+- LeasePayment
+- Lessor
+- LeaseType
+- ResidualValue
+- DepreciationSchedule
+- MaintenanceAgreement
+- InsurancePolicy
+- LeaseAmendment
+- EarlyTermination
+- LeaseRenewal
+- PurchaseOption
+- SecurityDeposit
+- LateFee
+- LeaseStatus
+- VendorInvoice
+- AssetCondition
+- ReturnInspection
+- LeaseAccounting
+- TaxBenefit
+- CollateralValue
+
+**Total Number of Tables:** 17
+
+---
+
+### Source System: Cadence
+
+**System Functionality Description:** Manages commercial loan origination, credit analysis, underwriting workflows, and loan portfolio management.
+
+**Top 20-25 Key Entity Names:**
+- LoanApplication
+- Borrower
+- CommercialLoan
+- CreditAnalysis
+- Underwriting
+- LoanCommittee
+- CollateralAppraisal
+- FinancialStatement
+- CreditMemo
+- LoanApproval
+- LoanDocument
+- Covenant
+- LoanDisbursement
+- PaymentSchedule
+- InterestRate
+- LoanFee
+- Guarantor
+- RiskRating
+- LoanModification
+- DefaultStatus
+- WorkoutPlan
+- LoanReview
+- ComplianceCheck
+- LoanServicing
+- PortfolioAnalysis
+
+**Total Number of Tables:** 81
+
+---
+
+### Source System: Epiq
+
+**System Functionality Description:** Manages bankruptcy proceedings, creditor claims, asset liquidation, and legal case management.
+
+**Top 20-25 Key Entity Names:**
+- BankruptcyCase
+- Debtor
+- Creditor
+- Claim
+- Asset
+- Trustee
+- CourtFiling
+- Payment Plan
+- Liquidation
+- Discharge
+- CreditorMeeting
+- ProofOfClaim
+- AssetValuation
+- DistributionPlan
+- LegalDocument
+- CaseStatus
+- Objection
+- Settlement
+- CourtOrder
+- CreditorCommittee
+
+**Total Number of Tables:** 8
+
+---
+
+### Source System: Salesforce
+
+**System Functionality Description:** Manages customer relationship management, sales pipeline, opportunities, accounts, and commercial banking relationships.
+
+**Top 20-25 Key Entity Names:**
+- Account
+- Contact
+- Opportunity
+- Lead
+- Campaign
+- Case
+- Task
+- Event
+- Product
+- Quote
+- Contract
+- SalesStage
+- Pipeline
+- Territory
+- SalesTeam
+- Activity
+- Note
+- Attachment
+- EmailMessage
+- OpportunityLineItem
+- ForecastCategory
+- CompetitorAnalysis
+- RelationshipMap
+- CrossSellOpportunity
+- CustomerSegment
+
+**Total Number of Tables:** 1773
+
+---
+
+### Source System: Laserfi
+
+**System Functionality Description:** Manages commercial real estate lending, construction loans, property financing, and real estate portfolio.
+
+**Top 20-25 Key Entity Names:**
+- RealEstateLoan
+- Property
+- Borrower
+- PropertyAppraisal
+- ConstructionDraw
+- LoanToValue
+- DebtServiceCoverage
+- PropertyInspection
+- RentRoll
+- OperatingStatement
+- PropertyType
+- LoanPurpose
+- InterestReserve
+- EnvironmentalReport
+- TitleInsurance
+- PropertyInsurance
+- LoanCovenants
+- FinancialCovenant
+- PropertyManagement
+- TenantLease
+- OccupancyRate
+- NetOperatingIncome
+- CapitalizationRate
+- PropertyValuation
+- LoanMaturity
+
+**Total Number of Tables:** 25
+
+---
+
+### Source System: Nortridge
+
+**System Functionality Description:** Manages commercial loan servicing, payment processing, escrow management, and loan portfolio administration.
+
+**Top 20-25 Key Entity Names:**
+- LoanAccount
+- Borrower
+- Payment
+- PaymentApplication
+- EscrowAccount
+- InterestAccrual
+- PrincipalBalance
+- LateCharge
+- PayoffQuote
+- LoanModification
+- Forbearance
+- DefaultManagement
+- CollectionActivity
+- BankruptcyTracking
+- InsuranceTracking
+- TaxTracking
+- Statement
+- Transaction
+- FeeAssessment
+- PaymentReversal
+- ChargeOff
+- Recovery
+- LoanTransfer
+- InvestorReporting
+- RegulatoryReporting
+
+**Total Number of Tables:** 150
