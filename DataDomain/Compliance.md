@@ -1,0 +1,9 @@
+# Business Unit: Compliance
+
+## Source System Analysis
+
+| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
+|--------------|-------------------|---------------------|---------------------------|----------------------|
+| Compliance | Archer | Manages governance, risk, compliance (GRC) framework, risk assessments, and regulatory compliance tracking. | - Risk<br>- Control<br>- Assessment<br>- Issue<br>- Finding<br>- Remediation<br>- Policy<br>- Regulation<br>- Audit<br>- Incident<br>- Loss<br>- Mitigation<br>- Workflow<br>- Approval<br>- Document<br>- Evidence<br>- Questionnaire<br>- Report<br>- Dashboard<br>- KRI<br>- Framework<br>- Compliance<br>- Exception<br>- Action Plan<br>- Owner | 2344 |
+| Compliance | DDC | Manages due diligence checks, customer screening, KYC verification, and compliance validation processes. | - Customer<br>- Screening<br>- Verification<br>- KYC<br>- DueDiligence<br>- Document<br>- Identity<br>- Address<br>- Watchlist<br>- Sanction<br>- PEP<br>- AdverseMedia<br>- RiskScore<br>- Alert<br>- Case<br>- Review<br>- Approval<br>- Status<br>- Source<br>- Match<br>- Investigation<br>- Resolution<br>- Audit<br>- Report<br>- Expiration | 8 |
+| Compliance | Fincen | Manages FinCEN regulatory reporting, suspicious activity reports (SAR), and currency transaction reports. | - SAR<br>- CTR<br>- Filing<br>- Transaction<br>- SuspiciousActivity<br>- Customer<br>- Account<br>- Narrative<br>- Subject<br>- Amount<br>- Date<br>- Location<br>- Institution<br>- Contact<br>- ActivityType<br>- Disposition<br>- Status<br>- Submission<br>- Acknowledgment<br>- Correction<br>- Amendment<br>- Batch<br>- Validation<br>- Error<br>- Audit | 4 |
