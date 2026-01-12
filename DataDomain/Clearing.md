@@ -1,10 +1,136 @@
-# Business Unit: Clearing
+# Clearing Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: Clearing
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|----------------------|
-| Clearing | Clearing | Manages securities clearing, settlement, custody services, and trade execution for broker-dealers and RIAs. | - Trade<br>- Settlement<br>- Security<br>- Account<br>- Position<br>- Transaction<br>- Broker<br>- Dealer<br>- Custodian<br>- ClearingHouse<br>- Participant<br>- TradeDate<br>- SettlementDate<br>- CashMovement<br>- SecurityMovement<br>- Obligation<br>- Netting<br>- Collateral<br>- MarginCall<br>- RiskExposure<br>- Counterparty<br>- ClearingFee<br>- FailedTrade<br>- Reconciliation<br>- CorporateAction | 1391 |
-| Clearing | Cor Clearing | Manages correspondent clearing services, trade processing, and back-office operations for financial institutions. | - CorrespondentAccount<br>- Trade<br>- Settlement<br>- Clearing<br>- BrokerDealer<br>- Customer<br>- Position<br>- Transaction<br>- Security<br>- CashBalance<br>- MarginRequirement<br>- Collateral<br>- TradeConfirmation<br>- SettlementInstruction<br>- DTC<br>- NSCC<br>- ClearingFirm<br>- IntroducingBroker<br>- Commission<br>- Fee<br>- Reconciliation<br>- RegulatoryReport<br>- RiskManagement<br>- CorporateAction<br>- Dividend | 2181 |
-| Clearing | DMClearing | Manages data management for clearing operations, trade data validation, and clearing system integration. | - TradeData<br>- ClearingData<br>- DataValidation<br>- DataQuality<br>- DataIntegration<br>- SourceSystem<br>- TargetSystem<br>- DataMapping<br>- Transformation<br>- DataFlow<br>- ErrorLog<br>- DataReconciliation<br>- MasterData<br>- ReferenceData<br>- DataLineage<br>- DataGovernance<br>- DataAudit<br>- DataMetrics<br>- DataMonitoring<br>- DataException | 13 |
-| Clearing | Jack Henry | Manages core banking operations, account management, and transaction processing for clearing services. | - Account<br>- Customer<br>- Transaction<br>- Deposit<br>- Withdrawal<br>- Transfer<br>- Balance<br>- Product<br>- Service<br>- Branch<br>- AccountType<br>- InterestRate<br>- Fee<br>- Statement<br>- Card<br>- Loan<br>- Payment<br>- ACH<br>- Wire<br>- Check<br>- Hold<br>- Stop Payment<br>- Overdraft<br>- Relationship<br>- CIF | 1284 |
+### Source System: Clearing
+
+**System Functionality Description:** Manages securities clearing, trade settlement, custody services, and back-office operations for broker-dealers.
+
+**Top 20-25 Key Entity Names:**
+- Trade
+- Settlement
+- Security
+- Position
+- Account
+- Counterparty
+- ClearingMember
+- TradeConfirmation
+- SettlementInstruction
+- CustodyAccount
+- CorporateAction
+- Dividend
+- Interest
+- MarginRequirement
+- Collateral
+- CashMovement
+- SecurityMovement
+- TradeDate
+- SettlementDate
+- NetSettlement
+- FailedTrade
+- TradeAmendment
+- ReconciliationBreak
+- ClearingFee
+- RegulatoryReporting
+
+**Total Number of Tables:** 1391
+
+---
+
+### Source System: Cor Clearing
+
+**System Functionality Description:** Manages correspondent clearing services, omnibus accounts, trade processing, and settlement for introducing brokers.
+
+**Top 20-25 Key Entity Names:**
+- CorrespondentAccount
+- IntroducingBroker
+- OmnibusAccount
+- Trade
+- Settlement
+- Position
+- Client
+- Security
+- TradeAllocation
+- ClearingAgreement
+- MarginCall
+- Collateral
+- RiskLimit
+- TradeConfirmation
+- SettlementInstruction
+- CashBalance
+- SecurityBalance
+- CorporateAction
+- Dividend
+- Fee
+- Commission
+- NetCapital
+- RegulatoryReport
+- Reconciliation
+- FailManagement
+
+**Total Number of Tables:** 2181
+
+---
+
+### Source System: DMClearing
+
+**System Functionality Description:** Manages clearing data mart, reporting analytics, and business intelligence for clearing operations.
+
+**Top 20-25 Key Entity Names:**
+- TradeFact
+- SettlementFact
+- PositionFact
+- AccountDimension
+- SecurityDimension
+- DateDimension
+- CounterpartyDimension
+- FeeFact
+- RevenueFact
+- RiskMetric
+- PerformanceMetric
+- VolumeMetric
+- ClearingReport
+- DashboardMetric
+- KPI
+- TrendAnalysis
+- AggregatedPosition
+- DailyActivity
+- MonthlyActivity
+- ClientSegment
+
+**Total Number of Tables:** 13
+
+---
+
+### Source System: Jack Henry
+
+**System Functionality Description:** Manages core banking operations, customer accounts, deposits, loans, and transaction processing for retail banking.
+
+**Top 20-25 Key Entity Names:**
+- Customer
+- Account
+- Transaction
+- Deposit
+- Loan
+- Payment
+- Branch
+- Product
+- InterestRate
+- Fee
+- Card
+- Statement
+- CheckingAccount
+- SavingsAccount
+- CertificateOfDeposit
+- MoneyMarket
+- LoanApplication
+- Collateral
+- PaymentSchedule
+- AutomatedClearingHouse
+- WireTransfer
+- CheckImage
+- OverdraftProtection
+- ServiceCharge
+- CustomerRelationship
+
+**Total Number of Tables:** 1284
