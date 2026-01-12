@@ -1,11 +1,183 @@
 # Marketing Business Unit - Source Systems Analysis
 
-| Business Unit Name | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|-------------------|-------------------|---------------------|---------------------------|----------------------|
-| Marketing | ACX | Automated customer experience platform for personalized marketing and customer journey orchestration. | - Customer<br>- Journey<br>- Touchpoint<br>- Campaign<br>- Interaction<br>- Experience<br>- Personalization<br>- CustomerSegment<br>- JourneyStage<br>- EngagementMetric<br>- ContentDelivery<br>- CustomerPreference<br>- ExperienceScore<br>- InteractionHistory<br>- JourneyAnalytics | 15 |
-| Marketing | Datamyx | Marketing data management platform for customer data integration and marketing analytics. | - Customer<br>- MarketingData<br>- DataSource<br>- DataIntegration<br>- CustomerAttribute<br>- DataQuality<br>- DataSegment<br>- MarketingMetric<br>- DataTransformation<br>- CustomerProfile<br>- DataSynchronization<br>- AnalyticsData<br>- DataGovernance<br>- CustomerInsight<br>- DataLineage<br>- MarketingDimension<br>- DataValidation<br>- CustomerView | 18 |
-| Marketing | DNC | Do Not Call registry management for compliance with telemarketing regulations. | - DoNotCallList | 1 |
-| Marketing | GA4 | Google Analytics 4 for web and app analytics, user behavior tracking, and conversion measurement. | - Event<br>- User<br>- Session<br>- PageView<br>- Conversion<br>- UserProperty<br>- EventParameter<br>- TrafficSource<br>- Campaign<br>- Goal<br>- Audience<br>- Engagement<br>- UserJourney<br>- Attribution<br>- CustomDimension<br>- CustomMetric<br>- EcommerceTransaction<br>- UserBehavior<br>- SessionMetric<br>- ConversionFunnel<br>- AnalyticsReport<br>- DataStream<br>- MeasurementProtocol<br>- UserSegment<br>- EventTracking | 34 |
-| Marketing | Interaction Studio | Real-time personalization and interaction management platform for customer engagement. | - Interaction<br>- Customer<br>- Campaign<br>- Experience<br>- Personalization<br>- Segment<br>- ContentAsset<br>- InteractionEvent<br>- CustomerProfile<br>- EngagementScore<br>- RealtimeDecision<br>- InteractionHistory<br>- PersonalizationRule<br>- CampaignExperience<br>- CustomerAttribute<br>- InteractionMetric<br>- ContentRecommendation<br>- BehaviorTracking<br>- ExperienceOptimization<br>- InteractionChannel<br>- CustomerJourney<br>- EngagementTrigger<br>- PersonalizationStrategy<br>- InteractionAnalytics<br>- RealtimeSegment | 121 |
-| Marketing | MarketingCloud | Marketing automation platform for email marketing, customer journeys, and multi-channel campaigns. | - Campaign<br>- Contact<br>- Email<br>- Journey<br>- Subscriber<br>- SendLog<br>- EmailTemplate<br>- Automation<br>- Segment<br>- DataExtension<br>- ContentBlock<br>- SendDefinition<br>- EngagementMetric<br>- UnsubscribeList<br>- ABTest | 15 |
-| Marketing | OCEO | Office of CEO marketing initiatives for executive communications and strategic marketing. | - Initiative<br>- Communication<br>- Stakeholder<br>- Message<br>- Campaign<br>- ExecutiveBrief<br>- StrategicPlan<br>- CommunicationChannel<br>- Audience<br>- MessageTemplate<br>- CommunicationSchedule<br>- FeedbackResponse<br>- InitiativeMetric<br>- StakeholderEngagement<br>- ExecutiveReport<br>- CommunicationLog<br>- InitiativeStatus<br>- MessageApproval<br>- AudienceSegment<br>- CommunicationImpact | 46 |
+## Business Unit: Marketing
+
+---
+
+### Source System: ACX
+
+**System Functionality Description:** Automated customer experience platform managing personalized marketing campaigns and customer interactions.
+
+**Top 20-25 Key Entity Names:**
+- Customer
+- Campaign
+- Interaction
+- Journey
+- Touchpoint
+- Segment
+- Message
+- Channel
+- Engagement
+- CustomerProfile
+- CampaignExecution
+- InteractionHistory
+- JourneyStage
+- PersonalizationRule
+- EngagementMetric
+- CampaignResponse
+- CustomerBehavior
+- MessageTemplate
+- ChannelPreference
+- InteractionEvent
+
+**Total Number of Tables:** 15
+
+---
+
+### Source System: Datamyx
+
+**System Functionality Description:** Marketing data management platform consolidating customer data and enabling targeted marketing analytics.
+
+**Top 20-25 Key Entity Names:**
+- CustomerData
+- MarketingSegment
+- DataSource
+- CustomerAttribute
+- DataIntegration
+- SegmentationRule
+- CustomerProfile
+- DataQuality
+- MarketingMetric
+- DataMapping
+- CustomerInsight
+- SegmentMembership
+- DataTransformation
+- AnalyticsModel
+- CustomerScore
+- DataLineage
+- SegmentPerformance
+- DataValidation
+- MarketingAnalytics
+- CustomerJourney
+
+**Total Number of Tables:** 18
+
+---
+
+### Source System: DNC
+
+**System Functionality Description:** Do Not Call registry system managing customer communication preferences and regulatory compliance.
+
+**Top 20-25 Key Entity Names:**
+- Customer
+- PhoneNumber
+- DoNotCallStatus
+- OptOutRequest
+- ComplianceRecord
+- CommunicationPreference
+- RegistrationDate
+- OptOutChannel
+- ComplianceCheck
+- PhoneNumberStatus
+
+**Total Number of Tables:** 1
+
+---
+
+### Source System: GA4
+
+**System Functionality Description:** Google Analytics 4 platform tracking website analytics, user behavior, and digital marketing performance.
+
+**Top 20-25 Key Entity Names:**
+- Event
+- User
+- Session
+- PageView
+- Conversion
+- UserProperty
+- EventParameter
+- TrafficSource
+- Campaign
+- Goal
+- Audience
+- Dimension
+- Metric
+- UserEngagement
+- ConversionPath
+- Attribution
+- CustomEvent
+- UserJourney
+- ChannelGrouping
+- EventCategory
+- SessionDuration
+- BounceRate
+- EcommerceTransaction
+- UserRetention
+- AnalyticsReport
+
+**Total Number of Tables:** 34
+
+---
+
+### Source System: Interaction Studio
+
+**System Functionality Description:** Real-time personalization platform managing customer interactions and delivering personalized experiences.
+
+**Top 20-25 Key Entity Names:**
+- Interaction
+- Customer
+- Experience
+- Campaign
+- Personalization
+- Segment
+- Event
+- Journey
+- Touchpoint
+- Engagement
+- CustomerProfile
+- PersonalizationRule
+- InteractionHistory
+- ExperienceVariant
+- CampaignExecution
+- SegmentMembership
+- EventStream
+- JourneyStage
+- TouchpointResponse
+- EngagementMetric
+- CustomerBehavior
+- PersonalizationStrategy
+- InteractionContext
+- ExperienceOptimization
+- CampaignPerformance
+
+**Total Number of Tables:** 121
+
+---
+
+### Source System: MarketingCloud
+
+**System Functionality Description:** Marketing automation platform managing email campaigns, customer journeys, and multi-channel marketing.
+
+**Top 20-25 Key Entity Names:**
+- Subscriber
+- Email
+- Campaign
+- Journey
+- Automation
+- List
+- Send
+- Engagement
+- Template
+- DataExtension
+- Segment
+- Trigger
+- EmailOpen
+- EmailClick
+- Unsubscribe
+- Bounce
+- JourneyActivity
+- CampaignMetric
+- SubscriberAttribute
+- SendLog
+
+**Total Number of Tables:** 15
