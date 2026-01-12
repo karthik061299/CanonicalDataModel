@@ -1,6 +1,8 @@
 # Business Unit: Credit
 
+## Source System Analysis
+
 | Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
 |--------------|-------------------|---------------------|---------------------------|----------------------|
-| Credit | Codefi | Credit decisioning and financial intelligence system for credit risk assessment. | - CreditDecision<br>- Borrower<br>- Application<br>- CreditScore<br>- RiskRating<br>- Income<br>- Debt<br>- DTI<br>- Asset<br>- Liability<br>- Employment<br>- Verification<br>- Model<br>- Policy<br>- Rule<br>- Condition<br>- Approval<br>- Decline<br>- Exception<br>- Override | 16 |
-| Credit | Moodys | Credit rating and risk analytics system for credit assessment and monitoring. | - Rating<br>- RiskScore<br>- Borrower<br>- Obligor<br>- Facility<br>- Exposure<br>- ProbabilityOfDefault<br>- LossGivenDefault<br>- ExpectedLoss<br>- CreditMetric<br>- Industry<br>- Sector<br>- Financial<br>- Analysis<br>- Outlook<br>- Watchlist<br>- Downgrade<br>- Upgrade<br>- Report<br>- Model | 3 |
+| Credit | Codefi | Credit decisioning and workflow platform managing credit policies, decision rules, and automated credit approval processes. | - CreditDecision<br>- DecisionRule<br>- CreditPolicy<br>- ApprovalWorkflow<br>- CreditScore<br>- DecisionCriteria<br>- RiskAssessment<br>- DecisionOutcome<br>- CreditLimit<br>- ApprovalCondition<br>- DecisionLog<br>- PolicyRule<br>- CreditApplication<br>- DecisionMatrix<br>- ApprovalLevel<br>- CreditRisk | 16 |
+| Credit | Moodys | Credit rating and risk assessment platform providing credit analysis, risk ratings, and financial risk evaluation. | - CreditRating<br>- RiskAssessment<br>- FinancialAnalysis | 3 |
