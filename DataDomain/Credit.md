@@ -6,34 +6,25 @@
 
 ### Source System: Codefi
 
-**System Functionality Description:** Credit decisioning and workflow platform managing credit applications, approvals, and risk assessment.
+**System Functionality Description:** Credit decisioning platform for automated credit scoring, risk assessment, and lending decisions.
 
 **Top 20-25 Key Entity Names:**
 - CreditApplication
-- Applicant
-- CreditDecision
-- RiskAssessment
 - CreditScore
-- DecisionWorkflow
-- ApprovalRule
+- RiskAssessment
+- DecisionModel
 - CreditPolicy
-- ApplicationStatus
-- UnderwritingCriteria
-- CreditLimit
-- DecisionEngine
+- ScorecardModel
+- DecisionRule
+- CreditDecision
 - RiskFactor
-- ApprovalLevel
-- CreditReview
-- ApplicationDocument
-- DecisionHistory
-- RiskRating
-- CreditCondition
-- ApprovalWorkflow
-- PolicyException
-- DecisionRationale
-- CreditAnalysis
-- ApplicationQueue
-- DecisionMetric
+- CreditAttribute
+- DecisionEngine
+- PolicyRule
+- CreditRating
+- RiskSegment
+- DecisionOutcome
+- ModelVariable
 
 **Total Number of Tables:** 16
 
@@ -41,18 +32,11 @@
 
 ### Source System: Moodys
 
-**System Functionality Description:** Credit rating and risk analytics platform providing credit assessments and financial analysis.
+**System Functionality Description:** Credit rating and risk analytics service for credit assessments and financial risk evaluation.
 
 **Top 20-25 Key Entity Names:**
 - CreditRating
-- Entity
 - RiskAnalysis
 - FinancialMetric
-- RatingHistory
-- CreditOutlook
-- RiskScore
-- IndustryAnalysis
-- RatingAgency
-- CreditReport
 
 **Total Number of Tables:** 3
