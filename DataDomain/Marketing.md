@@ -2,28 +2,36 @@
 
 ## Business Unit: Marketing
 
----
-
 ### Source System: ACX
 
-**System Functionality Description:** Audience and customer experience platform for customer segmentation and targeted marketing.
+**System Functionality Description:** Automated customer experience platform for personalized marketing campaigns and customer journey orchestration.
 
 **Top 20-25 Key Entity Names:**
 - Customer
-- Segment
 - Campaign
-- Audience
-- CustomerProfile
-- Interaction
-- Engagement
-- MarketingChannel
-- CustomerJourney
+- Journey
 - Touchpoint
-- SegmentRule
-- AudienceBuilder
-- CustomerAttribute
-- EngagementScore
-- CampaignTarget
+- Interaction
+- Event
+- Action
+- Segment
+- Offer
+- Message
+- Channel
+- Response
+- Conversion
+- Attribution
+- Personalization
+- Content
+- Template
+- Trigger
+- Rule
+- Workflow
+- Analytics
+- Metric
+- KPI
+- Test
+- Optimization
 
 **Total Number of Tables:** 15
 
@@ -31,27 +39,34 @@
 
 ### Source System: Datamyx
 
-**System Functionality Description:** Marketing data management platform for customer data integration and marketing analytics.
+**System Functionality Description:** Marketing data analytics platform for customer insights, segmentation, and campaign performance analysis.
 
 **Top 20-25 Key Entity Names:**
-- CustomerData
-- MarketingContact
-- DataSource
-- DataIntegration
-- CustomerRecord
-- DataQuality
-- MarketingList
-- ContactAttribute
-- DataMapping
-- CustomerMatch
-- DataEnrichment
-- MarketingDatabase
-- ContactHistory
-- DataSynchronization
-- CustomerIdentity
-- DataGovernance
-- MarketingSegment
-- ContactPreference
+- Customer
+- Segment
+- Profile
+- Behavior
+- Transaction
+- Event
+- Campaign
+- Response
+- Conversion
+- Attribution
+- Channel
+- Touchpoint
+- Funnel
+- Cohort
+- Lifetime Value
+- Churn
+- Propensity
+- Score
+- Model
+- Prediction
+- Analytics
+- Report
+- Dashboard
+- Metric
+- KPI
 
 **Total Number of Tables:** 18
 
@@ -59,10 +74,29 @@
 
 ### Source System: DNC
 
-**System Functionality Description:** Do not call registry for compliance with telemarketing regulations and contact restrictions.
+**System Functionality Description:** Do Not Call registry management system for compliance with telemarketing regulations.
 
 **Top 20-25 Key Entity Names:**
-- DoNotCallList
+- PhoneNumber
+- Customer
+- Registration
+- Status
+- Date
+- Source
+- Reason
+- Consent
+- OptOut
+- OptIn
+- Compliance
+- Violation
+- Exception
+- Scrub
+- Validation
+- Update
+- Expiration
+- Renewal
+- AuditLog
+- Report
 
 **Total Number of Tables:** 1
 
@@ -70,34 +104,34 @@
 
 ### Source System: GA4
 
-**System Functionality Description:** Google Analytics 4 for web analytics, user behavior tracking, and digital marketing measurement.
+**System Functionality Description:** Google Analytics 4 for web and app analytics, user behavior tracking, and conversion measurement.
 
 **Top 20-25 Key Entity Names:**
-- Event
 - User
 - Session
+- Event
 - PageView
 - Conversion
-- UserProperty
-- EventParameter
-- TrafficSource
-- Campaign
 - Goal
-- Ecommerce
-- UserEngagement
+- Funnel
+- Source
+- Medium
+- Campaign
+- Channel
+- Device
+- Browser
+- Location
+- Demographics
+- Behavior
+- Engagement
+- Retention
+- Cohort
+- Metric
+- Dimension
+- Report
+- Dashboard
 - Audience
-- Attribution
-- CustomDimension
-- CustomMetric
-- AnalyticsReport
-- UserBehavior
-- ConversionPath
-- ChannelGrouping
-- LandingPage
-- ExitPage
-- SessionDuration
-- BounceRate
-- UserAcquisition
+- Segment
 
 **Total Number of Tables:** 34
 
@@ -108,31 +142,31 @@
 **System Functionality Description:** Real-time personalization platform for customer interaction management and experience optimization.
 
 **Top 20-25 Key Entity Names:**
+- Visitor
+- Session
 - Interaction
-- Customer
 - Event
+- Action
 - Campaign
 - Experience
 - Personalization
-- CustomerProfile
-- Engagement
+- Content
+- Offer
 - Recommendation
-- ContentAsset
-- InteractionHistory
-- BehaviorTracking
-- RealTimeDecision
-- CustomerJourney
+- Segment
+- Audience
+- Trigger
+- Rule
+- Decision
+- Response
+- Conversion
+- Attribution
+- Channel
 - Touchpoint
-- ExperienceRule
-- PersonalizationStrategy
-- InteractionMetrics
-- CustomerIntent
-- EngagementScore
-- ContentRecommendation
-- InteractionChannel
-- CustomerSegment
-- ExperienceOptimization
-- InteractionContext
+- Analytics
+- Metric
+- Test
+- Optimization
 
 **Total Number of Tables:** 121
 
@@ -143,20 +177,30 @@
 **System Functionality Description:** Marketing automation platform for email marketing, customer journeys, and multi-channel campaign management.
 
 **Top 20-25 Key Entity Names:**
+- Subscriber
+- Contact
+- List
+- Segment
 - Campaign
 - Email
-- Subscriber
 - Journey
-- Automation
-- SendLog
-- ClickTracking
-- OpenTracking
+- Message
+- Content
+- Template
+- Send
+- Delivery
+- Open
+- Click
+- Bounce
 - Unsubscribe
-- BounceLog
-- EmailTemplate
-- ContentBlock
+- Conversion
+- Automation
+- Trigger
+- Event
 - DataExtension
-- SendDefinition
-- TriggeredSend
+- Import
+- Export
+- Report
+- Analytics
 
 **Total Number of Tables:** 15
