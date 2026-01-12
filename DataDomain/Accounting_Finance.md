@@ -6,29 +6,15 @@
 
 ### Source System: Access Data
 
-**System Functionality Description:** Financial data access and reporting system for accounting records and financial statement preparation.
+**System Functionality Description:** Data access and reporting tool for financial data extraction, analysis, and ad-hoc reporting.
 
 **Top 20-25 Key Entity Names:**
-- GeneralLedger
-- Account
-- Transaction
-- JournalEntry
-- FinancialStatement
-- BalanceSheet
-- IncomeStatement
-- CashFlow
-- AccountingPeriod
-- CostCenter
-- Department
-- ChartOfAccounts
-- SubLedger
-- TrialBalance
-- AccountBalance
-- FinancialReport
-- AuditTrail
-- ReconciliationRecord
-- AccountingEntity
-- FiscalYear
+- DataQuery
+- Report
+- DataSource
+- AccessLog
+- UserPermission
+- ReportTemplate
 
 **Total Number of Tables:** 6
 
@@ -36,34 +22,34 @@
 
 ### Source System: CashSuite
 
-**System Functionality Description:** Cash management system handling liquidity, treasury operations, cash positioning, and payment processing activities.
+**System Functionality Description:** Cash management system for treasury operations, liquidity management, and payment processing workflows.
 
 **Top 20-25 Key Entity Names:**
 - CashAccount
-- CashPosition
-- Payment
 - Transaction
+- Payment
+- Receipt
+- CashPosition
 - BankAccount
-- Deposit
-- Withdrawal
-- CashFlow
-- LiquidityReport
-- TreasuryOperation
+- LiquidityPool
 - FundTransfer
-- CashBalance
-- PaymentInstruction
-- Settlement
-- ClearingRecord
-- BankStatement
-- ReconciliationItem
+- Reconciliation
 - CashForecast
-- InvestmentSweep
-- OverdraftProtection
-- WireTransfer
-- ACHTransaction
-- CheckProcessing
-- CashConcentration
-- TreasuryAccount
+- TreasuryOperation
+- PaymentInstruction
+- SettlementAccount
+- CashFlow
+- BalanceReport
+- InterestCalculation
+- FeeStructure
+- CurrencyExchange
+- ValueDate
+- ClearingAccount
+- NostroAccount
+- VostroAccount
+- SweepAccount
+- ConcentrationAccount
+- DisbursementAccount
 
 **Total Number of Tables:** 37
 
@@ -71,34 +57,34 @@
 
 ### Source System: COA
 
-**System Functionality Description:** Chart of accounts system managing account structures, hierarchies, and financial reporting classifications.
+**System Functionality Description:** Chart of accounts system managing general ledger structure, account hierarchies, and financial classification.
 
 **Top 20-25 Key Entity Names:**
 - Account
 - AccountHierarchy
 - AccountType
 - AccountCategory
-- AccountSegment
-- AccountCode
-- AccountDescription
-- AccountMapping
-- AccountGroup
-- FinancialDimension
+- GeneralLedger
+- SubLedger
 - CostCenter
 - ProfitCenter
 - Department
-- Division
-- BusinessUnit
+- AccountSegment
+- AccountMapping
+- AccountBalance
+- JournalEntry
+- AccountingPeriod
+- FiscalYear
 - AccountAttribute
-- AccountRelationship
 - AccountValidation
-- AccountVersion
-- AccountStatus
+- AccountGroup
+- NaturalAccount
+- StatisticalAccount
+- IntercompanyAccount
+- ConsolidationAccount
 - ReportingLine
-- ConsolidationRule
-- AccountClassification
-- SubAccount
-- AccountOwner
+- FinancialStatement
+- AccountReconciliation
 
 **Total Number of Tables:** 38
 
@@ -106,28 +92,13 @@
 
 ### Source System: Oracle
 
-**System Functionality Description:** Enterprise resource planning system for financial accounting, reporting, and general ledger management.
+**System Functionality Description:** Enterprise resource planning system for financial accounting, general ledger, and financial reporting.
 
 **Top 20-25 Key Entity Names:**
-- GeneralLedger
+- Ledger
 - JournalEntry
 - Account
 - Transaction
-- SubLedger
-- AccountingPeriod
-- FinancialStatement
-- Budget
-- CostCenter
-- Project
-- Invoice
-- Payment
-- Vendor
-- Customer
-- Asset
-- Liability
-- Revenue
-- Expense
-- BalanceSheet
-- IncomeStatement
+- FinancialPeriod
 
 **Total Number of Tables:** 5
