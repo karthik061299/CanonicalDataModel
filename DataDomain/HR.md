@@ -6,29 +6,17 @@
 
 ### Source System: HR
 
-**System Functionality Description:** Human resources management system handling employee data, payroll, benefits, and HR operations.
+**System Functionality Description:** Human resources management system for employee data, benefits administration, and HR operations.
 
 **Top 20-25 Key Entity Names:**
 - Employee
 - Position
 - Department
-- Payroll
-- Benefit
 - Compensation
+- Benefits
 - Performance
-- Attendance
-- Leave
-- Recruitment
-- Training
-- EmployeeRecord
-- JobTitle
-- Salary
-- TimeSheet
-- PerformanceReview
-- BenefitEnrollment
-- EmployeeStatus
-- Organization
-- EmployeeHistory
+- TimeOff
+- HRTransaction
 
 **Total Number of Tables:** 8
 
@@ -36,33 +24,17 @@
 
 ### Source System: Workday
 
-**System Functionality Description:** Cloud-based human capital management system managing workforce planning, talent, and HR analytics.
+**System Functionality Description:** Cloud HCM platform for human capital management, payroll, talent, and workforce planning.
 
 **Top 20-25 Key Entity Names:**
 - Worker
-- Position
 - Organization
 - Job
 - Compensation
-- Benefit
+- Benefits
+- TimeTracking
+- Payroll
 - Talent
 - Performance
-- Recruitment
-- TimeTracking
-- Absence
-- Learning
-- Succession
-- WorkforceAnalytics
-- EmployeeProfile
-- JobProfile
-- CompensationPlan
-- BenefitPlan
-- PerformanceGoal
-- TalentPool
-- RecruitmentRequisition
-- LearningProgram
-- SuccessionPlan
-- WorkforceMetric
-- OrganizationalUnit
 
 **Total Number of Tables:** 9
