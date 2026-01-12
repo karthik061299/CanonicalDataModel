@@ -1,14 +1,7 @@
 # Business Unit: Compliance
 
-## Source System Analysis
-
 | Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
 |--------------|-------------------|---------------------|---------------------------|----------------------|
-| Compliance | Archer | Governance risk and compliance platform for regulatory compliance management. | <ul><li>RiskAssessment</li><li>Control</li><li>Policy</li><li>Regulation</li><li>ComplianceRequirement</li><li>Audit</li><li>Finding</li><li>Issue</li><li>Remediation</li><li>RiskRegister</li><li>ControlTest</li><li>Incident</li><li>Loss</li><li>Threat</li><li>Vulnerability</li><li>RiskIndicator</li><li>ComplianceMetric</li><li>RegulatoryChange</li><li>PolicyException</li><li>Attestation</li><li>Workflow</li><li>Document</li><li>Evidence</li><li>RiskOwner</li><li>ControlOwner</li></ul> | 2,344 |
-| Compliance | DDC | Due diligence and compliance checking system for customer screening. | <ul><li>Customer</li><li>ScreeningResult</li><li>WatchList</li><li>RiskScore</li><li>ComplianceCheck</li><li>Alert</li><li>Investigation</li><li>Documentation</li></ul> | 8 |
-| Compliance | Fincen | Financial crimes enforcement network reporting for suspicious activity. | <ul><li>SuspiciousActivityReport</li><li>CurrencyTransactionReport</li><li>Transaction</li><li>Customer</li></ul> | 4 |
-
-### System Functionality Reasoning
-- **Archer**: Comprehensive GRC platform for enterprise risk and compliance management
-- **DDC**: Due diligence checking for customer compliance screening
-- **Fincen**: BSA/AML reporting system for regulatory filings
+| Compliance | Archer | Governance, risk, and compliance platform for regulatory compliance and risk management. | - Risk<br>- Control<br>- Assessment<br>- Issue<br>- Incident<br>- Policy<br>- Regulation<br>- Compliance<br>- Audit<br>- Finding<br>- Remediation<br>- Action<br>- Owner<br>- Status<br>- Workflow<br>- Document<br>- Evidence<br>- Report<br>- Dashboard<br>- KRI<br>- Framework<br>- Standard<br>- Requirement<br>- Exception<br>- Approval | 2344 |
+| Compliance | DDC | Due diligence and compliance system for customer screening and regulatory compliance. | - Customer<br>- Screening<br>- Alert<br>- Match<br>- Review<br>- Decision<br>- Watchlist<br>- Sanction<br>- PEP<br>- RiskScore<br>- Document<br>- Verification<br>- Status<br>- Case<br>- Investigation<br>- Analyst<br>- Approval<br>- AuditTrail<br>- Report<br>- Configuration | 8 |
+| Compliance | Fincen | Financial crimes enforcement network reporting system for suspicious activity and currency reporting. | - SuspiciousActivity<br>- Report<br>- Transaction<br>- Customer<br>- Account<br>- Filing<br>- Narrative<br>- Subject<br>- Activity<br>- Amount<br>- Date<br>- Location<br>- Institution<br>- Contact<br>- Status<br>- Submission<br>- Acknowledgment<br>- Correction<br>- CurrencyTransaction<br>- BSA | 4 |
