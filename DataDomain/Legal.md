@@ -1,6 +1,67 @@
 # Legal Business Unit - Source Systems Analysis
 
-| Business Unit Name | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|-------------------|-------------------|---------------------|---------------------------|----------------------|
-| Legal | Legal Tracker | Legal matter management system for case tracking, legal spend, and outside counsel management. | - LegalMatter<br>- Case<br>- Attorney<br>- LegalInvoice<br>- TimeEntry<br>- Expense<br>- OutsideCounsel<br>- LawFirm<br>- LegalBudget<br>- MatterStatus<br>- LegalDocument<br>- CaseNote<br>- BillingRate<br>- MatterType<br>- LegalHold<br>- ContractReview<br>- LitigationCase<br>- ComplianceMatter<br>- LegalRequest<br>- MatterTeam<br>- CostCenter | 36 |
-| Legal | PACER | Public Access to Court Electronic Records for federal court case information and filings. | - CourtCase<br>- CourtFiling<br>- Docket<br>- Party<br>- Attorney<br>- CourtDocument<br>- CaseStatus<br>- Hearing<br>- Judgment | 9 |
+## Business Unit: Legal
+
+---
+
+### Source System: Legal Tracker
+
+**System Functionality Description:** Legal matter management system tracking cases, litigation, contracts, and legal spend.
+
+**Top 20-25 Key Entity Names:**
+- LegalMatter
+- Case
+- Contract
+- Litigation
+- Attorney
+- LegalInvoice
+- Matter Type
+- Client
+- CourtCase
+- LegalDocument
+- BillingEntry
+- LegalSpend
+- OutsideCounsel
+- CaseStatus
+- ContractObligation
+- LegalHold
+- MatterBudget
+- LitigationPhase
+- SettlementAgreement
+- LegalTask
+- MatterTeam
+- CaseOutcome
+- ContractClause
+- LegalRisk
+- MatterTimeline
+
+**Total Number of Tables:** 36
+
+---
+
+### Source System: PACER
+
+**System Functionality Description:** Public Access to Court Electronic Records system accessing federal court documents and case information.
+
+**Top 20-25 Key Entity Names:**
+- CourtCase
+- Docket
+- CourtDocument
+- Party
+- Attorney
+- Judge
+- CourtFiling
+- CaseNumber
+- DocketEntry
+- CourtOrder
+- CaseStatus
+- Hearing
+- CourtJurisdiction
+- CaseType
+- FilingDate
+- DocumentType
+- CaseParticipant
+- CourtLocation
+- CaseSummary
+
+**Total Number of Tables:** 9
