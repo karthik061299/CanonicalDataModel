@@ -1,10 +1,131 @@
-# Business Unit: Accounting & Finance
+# Accounting & Finance Business Unit - Source Systems Analysis
 
-## Source System Analysis
+## Business Unit: Accounting & Finance
 
-| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
-|--------------|-------------------|---------------------|---------------------------|------------------------|
-| Accounting & Finance | Access Data | Provides data access and reporting capabilities for financial data analysis and regulatory compliance. | - Report<br>- DataSource<br>- Query<br>- User<br>- AccessControl<br>- DataExtract<br>- Schedule<br>- Audit<br>- DataMapping<br>- Transformation<br>- DataQuality<br>- Metadata<br>- Dashboard<br>- Metric<br>- Dimension<br>- Fact<br>- DataModel<br>- Connection<br>- Export<br>- Filter | 6 |
-| Accounting & Finance | CashSuite | Manages cash operations, treasury functions, liquidity management, and cash flow forecasting. | - CashAccount<br>- CashTransaction<br>- CashPosition<br>- Liquidity<br>- TreasuryOperation<br>- CashFlow<br>- FundTransfer<br>- BankAccount<br>- Reconciliation<br>- CashForecast<br>- InvestmentSecurity<br>- MoneyMarket<br>- InterestAccrual<br>- CashPooling<br>- Sweep<br>- Overdraft<br>- CreditLine<br>- CollateralManagement<br>- FXTransaction<br>- HedgingInstrument<br>- CounterpartyExposure<br>- SettlementInstruction<br>- PaymentOrder<br>- CashConcentration<br>- LiquidityRatio | 37 |
-| Accounting & Finance | COA | Manages chart of accounts structure, account hierarchies, and financial statement mapping. | - Account<br>- AccountHierarchy<br>- AccountType<br>- GeneralLedger<br>- SubLedger<br>- AccountSegment<br>- CostCenter<br>- ProfitCenter<br>- Department<br>- Division<br>- BusinessUnit<br>- AccountCategory<br>- AccountGroup<br>- FinancialStatement<br>- StatementLine<br>- AccountMapping<br>- ConsolidationRule<br>- IntercompanyAccount<br>- EliminationEntry<br>- AccountAttribute<br>- AccountStatus<br>- AccountOwner<br>- ValidityPeriod<br>- CurrencyAccount | 38 |
-| Accounting & Finance | Oracle | Enterprise resource planning system managing financial accounting, reporting, and business operations. | - GeneralLedger<br>- JournalEntry<br>- AccountsPayable<br>- AccountsReceivable<br>- Invoice<br>- Payment<br>- Vendor<br>- Customer<br>- FixedAsset<br>- Depreciation<br>- Budget<br>- Forecast<br>- FinancialPeriod<br>- CostAllocation<br>- Project<br>- Contract<br>- Revenue<br>- Expense<br>- TaxCode<br>- BankAccount | 5 |
+### Source System: Access Data
+
+**System Functionality Description:** Financial data access and reporting system for accounting operations and financial statement preparation.
+
+**Top 20-25 Key Entity Names:**
+- Account
+- Transaction
+- Journal
+- GeneralLedger
+- SubLedger
+- FinancialStatement
+- BalanceSheet
+- IncomeStatement
+- Report
+- Period
+- FiscalYear
+- Reconciliation
+- Adjustment
+- Accrual
+- Allocation
+- CostCenter
+- Department
+- ChartOfAccounts
+- AccountingEntry
+- Audit
+
+**Total Number of Tables:** 6
+
+---
+
+### Source System: CashSuite
+
+**System Functionality Description:** Cash management system for treasury operations, liquidity management, and payment processing across banking channels.
+
+**Top 20-25 Key Entity Names:**
+- CashAccount
+- Payment
+- Transaction
+- Liquidity
+- CashPosition
+- Settlement
+- Transfer
+- Reconciliation
+- Bank
+- Branch
+- Currency
+- ExchangeRate
+- CashFlow
+- Forecast
+- Sweep
+- Concentration
+- Disbursement
+- Collection
+- BalanceReport
+- Treasury
+- Nostro
+- Vostro
+- Clearing
+- Fee
+- Limit
+
+**Total Number of Tables:** 37
+
+---
+
+### Source System: COA
+
+**System Functionality Description:** Chart of Accounts management system for financial accounting structure, account hierarchy, and classification.
+
+**Top 20-25 Key Entity Names:**
+- Account
+- AccountHierarchy
+- AccountType
+- AccountCategory
+- AccountClass
+- SubAccount
+- GeneralLedger
+- AccountMapping
+- AccountStructure
+- FinancialDimension
+- CostCenter
+- ProfitCenter
+- Department
+- Division
+- Segment
+- AccountGroup
+- AccountBalance
+- Period
+- FiscalYear
+- AccountAttribute
+- AccountRule
+- Consolidation
+- Elimination
+- Intercompany
+- ReportingLine
+
+**Total Number of Tables:** 38
+
+---
+
+### Source System: Oracle
+
+**System Functionality Description:** Enterprise resource planning system for financial accounting, procurement, and general ledger management.
+
+**Top 20-25 Key Entity Names:**
+- GeneralLedger
+- Account
+- Journal
+- Transaction
+- Invoice
+- Payment
+- Vendor
+- Customer
+- PurchaseOrder
+- Receipt
+- Asset
+- Depreciation
+- Budget
+- Period
+- FiscalYear
+- CostCenter
+- Department
+- Project
+- Allocation
+- Reconciliation
+
+**Total Number of Tables:** 5
