@@ -1,71 +1,8 @@
-# Credit Business Unit - Source Systems Analysis
+# Business Unit: Credit
 
-## Business Unit: Credit
+## Source System Analysis
 
-### Source System: Codefi
-
-**System Functionality Description:** Credit decisioning and workflow automation platform for loan approval and credit risk management.
-
-**Top 20-25 Key Entity Names:**
-- Application
-- Borrower
-- Credit
-- Decision
-- Score
-- Rule
-- Policy
-- Workflow
-- Approval
-- Decline
-- Condition
-- Stipulation
-- Document
-- Verification
-- Income
-- Asset
-- Liability
-- Debt-to-Income
-- LoanToValue
-- Risk
-- Pricing
-- Rate
-- Exception
-- Override
-- AuditLog
-
-**Total Number of Tables:** 16
-
----
-
-### Source System: Moodys
-
-**System Functionality Description:** Credit rating and risk analytics platform for credit assessment and portfolio analysis.
-
-**Top 20-25 Key Entity Names:**
-- Rating
-- RiskScore
-- CreditAnalysis
-- Borrower
-- Company
-- Industry
-- Sector
-- Financial
-- Ratio
-- Metric
-- Trend
-- Outlook
-- Probability of Default
-- Loss Given Default
-- Exposure
-- Portfolio
-- Concentration
-- Model
-- Scenario
-- StressTest
-- Report
-- Research
-- Benchmark
-- Peer
-- Historical
-
-**Total Number of Tables:** 3
+| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
+|--------------|-------------------|---------------------|---------------------------|----------------------|
+| Credit | Codefi | Manages credit portfolio management, risk analytics, and loan performance monitoring. | - Loan<br>- Portfolio<br>- Borrower<br>- CreditRisk<br>- RiskRating<br>- Exposure<br>- Collateral<br>- Valuation<br>- Delinquency<br>- Default<br>- Loss<br>- Recovery<br>- Provision<br>- Allowance<br>- Covenant<br>- Monitoring<br>- Alert<br>- Report<br>- Metric<br>- KPI<br>- Stress<br>- Scenario<br>- Model<br>- Forecast<br>- Analytics | 16 |
+| Credit | Moodys | Manages credit ratings, risk assessment, and financial analysis services. | - Rating<br>- CreditScore<br>- RiskAssessment<br>- Issuer<br>- Security<br>- Obligation<br>- Analysis<br>- Report<br>- Outlook<br>- WatchList<br>- Upgrade<br>- Downgrade<br>- Methodology<br>- Factor<br>- Industry<br>- Sector<br>- Geography<br>- Financial<br>- Metric<br>- Benchmark<br>- Peer<br>- Trend<br>- Forecast<br>- Model<br>- Data | 3 |
