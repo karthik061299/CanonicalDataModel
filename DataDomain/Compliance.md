@@ -6,34 +6,34 @@
 
 ### Source System: Archer
 
-**System Functionality Description:** Governance, risk, and compliance platform managing regulatory requirements, risk assessments, and compliance monitoring.
+**System Functionality Description:** Governance, risk, and compliance platform for regulatory compliance, risk management, and audit.
 
 **Top 20-25 Key Entity Names:**
 - RiskAssessment
-- ComplianceRequirement
 - Control
 - Policy
-- Incident
-- Issue
-- AuditFinding
-- RegulatoryObligation
+- Regulation
+- ComplianceRequirement
 - RiskRegister
-- ControlTest
-- ComplianceProgram
-- RiskMitigation
-- PolicyException
-- ComplianceReport
-- RiskIndicator
-- ControlOwner
+- Issue
+- Finding
+- Remediation
 - AuditTrail
-- RiskCategory
-- ComplianceMetric
+- ControlTest
+- RiskIndicator
+- ComplianceReport
 - RegulatoryChange
+- ControlFramework
+- RiskMitigation
+- ComplianceObligation
+- ControlDeficiency
+- RiskOwner
+- ControlOwner
+- PolicyException
+- ComplianceMonitoring
+- RiskScenario
 - ControlEffectiveness
-- IssueRemediation
-- RiskAppetite
-- ComplianceCalendar
-- GovernanceFramework
+- RegulatoryExamination
 
 **Total Number of Tables:** 2344
 
@@ -41,21 +41,17 @@
 
 ### Source System: DDC
 
-**System Functionality Description:** Due diligence and compliance system managing customer verification, background checks, and regulatory screening.
+**System Functionality Description:** Due diligence and compliance system for customer screening, KYC, and regulatory verification.
 
 **Top 20-25 Key Entity Names:**
 - Customer
 - DueDiligenceCheck
-- BackgroundVerification
-- ScreeningResult
-- ComplianceRecord
-- RiskRating
-- DocumentVerification
-- IdentityCheck
-- SanctionScreening
-- PEPScreening
-- AdverseMediaCheck
+- KYCDocument
 - VerificationStatus
+- RiskProfile
+- ScreeningResult
+- ComplianceFlag
+- DocumentReview
 
 **Total Number of Tables:** 8
 
@@ -63,18 +59,12 @@
 
 ### Source System: Fincen
 
-**System Functionality Description:** Financial Crimes Enforcement Network reporting system managing suspicious activity and currency transaction reporting.
+**System Functionality Description:** Financial crimes enforcement network reporting for suspicious activity and regulatory filing.
 
 **Top 20-25 Key Entity Names:**
-- SuspiciousActivityReport
-- CurrencyTransactionReport
-- Filing
-- FinancialInstitution
-- ReportingEntity
-- Transaction
-- Subject
+- SARReport
 - SuspiciousActivity
-- NarrativeDescription
+- Transaction
 - FilingStatus
 
 **Total Number of Tables:** 4
