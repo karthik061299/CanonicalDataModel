@@ -1,16 +1,8 @@
 # Business Unit: Commercial
 
-## Source System Analysis
-
 | Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
 |--------------|-------------------|---------------------|---------------------------|----------------------|
-| Commercial | Aspire (Leasing) | Equipment and asset leasing management system for commercial financing. | <ul><li>Lease</li><li>Asset</li><li>Lessee</li><li>Payment</li><li>Contract</li><li>Equipment</li><li>Vendor</li><li>Invoice</li><li>Schedule</li><li>Amortization</li><li>Depreciation</li><li>Residual</li><li>Insurance</li><li>Maintenance</li><li>EndOfLease</li><li>RenewalOption</li><li>PurchaseOption</li></ul> | 17 |
-| Commercial | Cadence | Commercial lending platform for loan origination and portfolio management. | <ul><li>Loan</li><li>Borrower</li><li>Application</li><li>Collateral</li><li>Guarantor</li><li>Covenant</li><li>CreditAnalysis</li><li>FinancialStatement</li><li>RiskRating</li><li>LoanAgreement</li><li>Disbursement</li><li>Payment</li><li>InterestRate</li><li>Fee</li><li>Amortization</li><li>Servicing</li><li>Delinquency</li><li>Workout</li><li>ChargeOff</li><li>Recovery</li><li>Participation</li><li>Syndication</li><li>Commitment</li><li>DrawRequest</li><li>ComplianceCheck</li></ul> | 81 |
-| Commercial | Epiq | Bankruptcy and restructuring management system for commercial clients. | <ul><li>BankruptcyCase</li><li>Debtor</li><li>Creditor</li><li>Claim</li><li>Asset</li><li>Liability</li><li>Trustee</li><li>CourtFiling</li></ul> | 8 |
-| Commercial | Salesforce | Customer relationship management platform for commercial banking sales. | <ul><li>Account</li><li>Contact</li><li>Lead</li><li>Opportunity</li><li>Case</li><li>Campaign</li><li>Activity</li><li>Task</li><li>Event</li><li>Product</li><li>Quote</li><li>Contract</li><li>Order</li><li>Asset</li><li>Territory</li><li>User</li><li>Role</li><li>Team</li><li>Report</li><li>Dashboard</li><li>Forecast</li><li>Pipeline</li><li>EmailMessage</li><li>Document</li><li>Note</li></ul> | 1,773 |
-
-### System Functionality Reasoning
-- **Aspire (Leasing)**: Equipment leasing platform for commercial asset financing
-- **Cadence**: Commercial lending system for loan origination and management
-- **Epiq**: Bankruptcy and restructuring management for distressed commercial accounts
-- **Salesforce**: CRM platform for commercial banking relationship management
+| Commercial | Aspire (Leasing) | Equipment and asset leasing management system for commercial lease origination and servicing. | - Lease<br>- Asset<br>- Lessee<br>- Lessor<br>- Payment<br>- Schedule<br>- Contract<br>- Equipment<br>- Residual<br>- Depreciation<br>- Invoice<br>- Term<br>- Rate<br>- Collateral<br>- Insurance<br>- Maintenance<br>- Renewal<br>- Termination<br>- Fee<br>- Vendor | 17 |
+| Commercial | Cadence | Commercial loan origination and management system for business lending operations. | - Loan<br>- Borrower<br>- Application<br>- Collateral<br>- Guarantor<br>- Covenant<br>- Facility<br>- Commitment<br>- Drawdown<br>- Payment<br>- InterestRate<br>- Fee<br>- Maturity<br>- Amortization<br>- Relationship<br>- CreditAnalysis<br>- RiskRating<br>- Document<br>- Approval<br>- Servicing | 81 |
+| Commercial | Epiq | Bankruptcy and restructuring management system for commercial credit recovery operations. | - Case<br>- Debtor<br>- Creditor<br>- Claim<br>- Asset<br>- Liability<br>- Petition<br>- Filing<br>- Trustee<br>- Court<br>- Hearing<br>- Plan<br>- Distribution<br>- Payment<br>- Document<br>- Docket<br>- Notice<br>- Status<br>- Recovery<br>- Settlement | 8 |
+| Commercial | Salesforce | Customer relationship management system for commercial banking sales and client management. | - Account<br>- Contact<br>- Lead<br>- Opportunity<br>- Campaign<br>- Case<br>- Activity<br>- Task<br>- Event<br>- Product<br>- Quote<br>- Contract<br>- Pipeline<br>- Forecast<br>- Relationship<br>- Interaction<br>- Note<br>- Attachment<br>- User<br>- Team<br>- Territory<br>- Report<br>- Dashboard<br>- Workflow<br>- Approval | 1773 |
