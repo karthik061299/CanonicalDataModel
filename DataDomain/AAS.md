@@ -1,36 +1,10 @@
-# AAS Business Unit - Source Systems Analysis
+# Business Unit: AAS
 
-## Business Unit: AAS
+## Source System Analysis
 
-### Source System: ALF
+| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
+|--------------|-------------------|---------------------|---------------------------|----------------------|
+| AAS | ALF | Asset and liability management system for financial risk analysis and balance sheet optimization. | <ul><li>Asset</li><li>Liability</li><li>Portfolio</li><li>RiskMetric</li><li>InterestRate</li><li>CashFlow</li><li>Scenario</li><li>Forecast</li><li>BalanceSheet</li><li>GapAnalysis</li><li>Duration</li><li>Convexity</li><li>RateShock</li><li>Hedge</li><li>Derivative</li><li>ValuationModel</li><li>MarketData</li><li>RiskLimit</li><li>Simulation</li><li>StressTest</li></ul> | 68 |
 
-**System Functionality Description:** Manages asset liability management, interest rate risk, liquidity management, and financial modeling for treasury operations.
-
-**Top 20-25 Key Entity Names:**
-- Asset
-- Liability
-- InterestRate
-- Portfolio
-- RiskMetric
-- Cashflow
-- Instrument
-- Position
-- ValuationModel
-- Scenario
-- Hedge
-- Derivative
-- Maturity
-- Duration
-- Yield
-- Spread
-- Benchmark
-- RateShock
-- LiquidityGap
-- NetInterestIncome
-- EconomicValue
-- RiskLimit
-- Counterparty
-- CollateralAgreement
-- TreasuryAccount
-
-**Total Number of Tables:** 68
+### System Functionality Reasoning
+**ALF** - Based on the business unit name "AAS" (likely Asset and Liability Services) and common banking practices, ALF is identified as an Asset-Liability Management system used for managing financial institution's balance sheet risk, interest rate risk, and liquidity management.
