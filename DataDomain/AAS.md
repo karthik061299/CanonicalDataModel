@@ -4,33 +4,33 @@
 
 ### Source System: ALF
 
-**System Functionality Description:** Automated lending and financing platform managing loan origination, servicing, and portfolio management operations.
+**System Functionality Description:** Asset and liability management system for financial planning, risk analysis, and balance sheet optimization.
 
 **Top 20-25 Key Entity Names:**
-- Loan
-- Borrower
-- Collateral
-- Payment
-- LoanApplication
-- CreditScore
-- Underwriting
-- LoanAccount
+- Asset
+- Liability
+- Portfolio
+- RiskMetric
+- Scenario
+- CashFlow
 - InterestRate
-- Amortization
-- Disbursement
-- Repayment
-- LoanProduct
-- LoanOfficer
-- Document
-- Guarantor
-- LienHolder
-- LoanStatus
-- PaymentSchedule
-- DefaultTracking
-- LoanModification
-- RiskAssessment
-- ComplianceCheck
-- LoanPortfolio
-- ServicingRecord
+- Duration
+- Convexity
+- ValuationModel
+- HedgingStrategy
+- MarketData
+- Benchmark
+- Sensitivity
+- StressTest
+- LiquidityRatio
+- CapitalRequirement
+- RegulatoryReport
+- ForecastModel
+- BalanceSheet
+- NetInterestMargin
+- EconomicCapital
+- RiskLimit
+- ModelAssumption
+- PerformanceMetric
 
 **Total Number of Tables:** 68
