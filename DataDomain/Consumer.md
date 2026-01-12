@@ -2,38 +2,36 @@
 
 ## Business Unit: Consumer
 
----
-
 ### Source System: Account Aggregation
 
-**System Functionality Description:** Account aggregation service for consolidating external account data and financial information.
+**System Functionality Description:** Financial account aggregation service for consolidating customer accounts from multiple institutions.
 
 **Top 20-25 Key Entity Names:**
-- ExternalAccount
-- AccountLink
+- Account
+- Customer
+- Institution
 - Transaction
 - Balance
-- Institution
-- AccountCredential
-- AggregationSession
-- AccountRefresh
-- DataProvider
-- AccountType
-- TransactionCategory
-- SyncStatus
-- AccountOwner
-- BalanceHistory
-- ConnectionStatus
-- RefreshSchedule
-- ErrorLog
-- AccountMetadata
-- InstitutionMapping
-- DataFeed
-- AccountVerification
-- AggregationRule
-- DataQuality
-- AccountStatus
-- SyncLog
+- Connection
+- Credential
+- Aggregation
+- Refresh
+- Category
+- Merchant
+- Position
+- Holding
+- Investment
+- Liability
+- Asset
+- NetWorth
+- Trend
+- Alert
+- Notification
+- Status
+- Error
+- Log
+- Sync
+- Update
 
 **Total Number of Tables:** 28
 
@@ -41,34 +39,34 @@
 
 ### Source System: Actimize
 
-**System Functionality Description:** Anti-money laundering and fraud detection platform for transaction monitoring and compliance.
+**System Functionality Description:** Financial crime prevention platform for anti-money laundering, fraud detection, and compliance monitoring.
 
 **Top 20-25 Key Entity Names:**
 - Alert
 - Case
 - Transaction
 - Customer
-- RiskScore
+- Account
+- Rule
 - Scenario
+- Score
+- Risk
 - Investigation
-- SuspiciousActivity
-- MonitoringRule
-- WatchList
-- PEPScreening
-- SanctionsList
-- TransactionPattern
-- BehaviorProfile
-- RiskIndicator
-- CaseManagement
-- AlertDisposition
-- FalsePositive
-- EscalationRule
-- ComplianceReport
-- AuditTrail
-- RiskRating
-- CustomerDueDiligence
-- TransactionMonitoring
-- RegulatoryFiling
+- SAR
+- CTR
+- Watchlist
+- PEP
+- Sanction
+- Pattern
+- Behavior
+- Anomaly
+- Disposition
+- Evidence
+- Report
+- Compliance
+- AuditLog
+- Workflow
+- Decision
 
 **Total Number of Tables:** 163
 
@@ -76,34 +74,34 @@
 
 ### Source System: Aithnet
 
-**System Functionality Description:** Authentication network for identity verification, secure access, and multi-factor authentication.
+**System Functionality Description:** Authentication network for secure identity verification and multi-factor authentication.
 
 **Top 20-25 Key Entity Names:**
 - User
-- AuthenticationSession
+- Authentication
 - Credential
-- AuthenticationMethod
 - Token
-- BiometricData
-- DeviceRegistration
-- AuthenticationLog
-- SecurityPolicy
-- AccessAttempt
-- MultiFactorAuth
-- PasswordPolicy
-- SessionManagement
-- IdentityVerification
-- AuthenticationProvider
-- TrustScore
-- DeviceFingerprint
-- RiskAssessment
-- AuthenticationChallenge
-- SecurityQuestion
-- OTPGeneration
-- AuthenticationRule
-- AccessControl
-- IdentityProofing
-- AuthenticationEvent
+- Session
+- Device
+- Factor
+- Challenge
+- Response
+- Verification
+- Identity
+- Certificate
+- Key
+- Policy
+- Rule
+- Access
+- Permission
+- Log
+- Event
+- Alert
+- Risk
+- Fraud
+- Biometric
+- OTP
+- PIN
 
 **Total Number of Tables:** 38
 
@@ -111,34 +109,34 @@
 
 ### Source System: Andera
 
-**System Functionality Description:** Digital account opening platform for customer onboarding, application processing, and account setup.
+**System Functionality Description:** Digital account opening platform for online customer onboarding and application processing.
 
 **Top 20-25 Key Entity Names:**
 - Application
 - Applicant
 - Account
+- Product
 - Document
-- IdentityVerification
-- ApplicationStatus
-- ProductSelection
-- FundingSource
-- ElectronicSignature
-- ComplianceCheck
+- Verification
+- Identity
 - CreditCheck
-- ApplicationWorkflow
-- AccountOpening
-- CustomerConsent
-- DisclosureDocument
-- ApplicationDecision
-- FundingMethod
-- AccountConfiguration
-- BeneficiaryInformation
-- JointOwner
-- ApplicationReview
-- DocumentUpload
-- VerificationStatus
-- OnboardingStep
-- ApplicationData
+- Approval
+- Workflow
+- Status
+- Step
+- Field
+- Validation
+- Signature
+- Consent
+- Disclosure
+- Funding
+- Activation
+- Notification
+- AuditLog
+- Configuration
+- Template
+- Rule
+- Decision
 
 **Total Number of Tables:** 36
 
@@ -146,17 +144,34 @@
 
 ### Source System: ARM
 
-**System Functionality Description:** Adjustable rate mortgage system for rate management, payment calculation, and mortgage servicing.
+**System Functionality Description:** Accounts receivable management system for collections, recovery, and delinquency management.
 
 **Top 20-25 Key Entity Names:**
-- Mortgage
-- InterestRate
-- RateAdjustment
-- Index
-- Margin
-- PaymentSchedule
-- RateCap
-- AdjustmentPeriod
+- Account
+- Debtor
+- Debt
+- Payment
+- Collection
+- Strategy
+- Queue
+- Assignment
+- Contact
+- Promise
+- Arrangement
+- Dispute
+- Settlement
+- Charge-off
+- Recovery
+- Letter
+- Call
+- Note
+- Action
+- Status
+- Aging
+- Balance
+- Fee
+- Interest
+- Legal
 
 **Total Number of Tables:** 8
 
@@ -169,19 +184,29 @@
 **Top 20-25 Key Entity Names:**
 - Loan
 - Borrower
+- Property
 - Payment
-- EscrowAccount
-- ServicingActivity
-- LoanModification
-- Foreclosure
-- DefaultManagement
-- PropertyTax
+- Escrow
+- Transaction
+- Principal
+- Interest
+- Tax
 - Insurance
-- PrincipalBalance
-- InterestAccrual
-- PaymentHistory
-- LoanStatus
-- ServicingTransfer
+- Statement
+- Notice
+- Document
+- Servicing
+- Default
+- Modification
+- Forbearance
+- Payoff
+- Reinstatement
+- Investor
+- Pool
+- Remittance
+- Reporting
+- Compliance
+- AuditLog
 
 **Total Number of Tables:** 15
 
@@ -189,34 +214,34 @@
 
 ### Source System: CLOS
 
-**System Functionality Description:** Closing and settlement system for loan closing, document preparation, and settlement processing.
+**System Functionality Description:** Commercial loan origination system for business lending and credit decisioning.
 
 **Top 20-25 Key Entity Names:**
-- ClosingPackage
-- LoanDocument
-- Settlement
-- ClosingDisclosure
-- TitleInsurance
-- Escrow
-- ClosingAgent
-- SigningAppointment
-- FundsDisbursement
-- RecordingInformation
-- ClosingCost
-- SettlementStatement
-- DocumentSigning
-- NotaryService
-- WireInstruction
-- ClosingCondition
-- FinalWalkthrough
-- KeyDelivery
-- PropertyDeed
-- MortgageNote
-- ClosingChecklist
-- PostClosingAudit
-- DocumentRecording
-- ClosingStatus
-- SettlementDate
+- Loan
+- Application
+- Borrower
+- Guarantor
+- Business
+- Credit
+- Financial
+- Collateral
+- Appraisal
+- Underwriting
+- Decision
+- Approval
+- Condition
+- Document
+- Closing
+- Disbursement
+- Rate
+- Term
+- Fee
+- Covenant
+- Relationship
+- Officer
+- Pipeline
+- Status
+- Workflow
 
 **Total Number of Tables:** 30
 
@@ -224,34 +249,34 @@
 
 ### Source System: Comergence
 
-**System Functionality Description:** Loan origination system for mortgage processing, underwriting, and loan application management.
+**System Functionality Description:** Customer communication platform for multichannel messaging, notifications, and document delivery.
 
 **Top 20-25 Key Entity Names:**
-- LoanApplication
-- Borrower
-- Property
-- Underwriting
-- LoanEstimate
-- CreditReport
-- Appraisal
-- IncomeVerification
-- AssetVerification
-- LoanProduct
-- LoanOfficer
-- ApplicationMilestone
-- Disclosure
-- Condition
-- LoanApproval
-- RateLock
-- LoanPricing
-- ComplianceCheck
-- DocumentCollection
-- ApplicationStatus
-- LoanSubmission
-- UnderwritingDecision
-- LoanCommitment
-- ClosingDisclosure
-- QualityControl
+- Customer
+- Message
+- Communication
+- Channel
+- Email
+- SMS
+- Push
+- Document
+- Template
+- Campaign
+- Delivery
+- Status
+- Preference
+- Consent
+- Opt-in
+- Opt-out
+- Schedule
+- Trigger
+- Event
+- Response
+- Click
+- Open
+- Bounce
+- Unsubscribe
+- AuditLog
 
 **Total Number of Tables:** 71
 
@@ -259,12 +284,29 @@
 
 ### Source System: Compass
 
-**System Functionality Description:** Navigation and routing system for branch operations and customer service management.
+**System Functionality Description:** Navigation and routing system for customer journey orchestration and experience management.
 
 **Top 20-25 Key Entity Names:**
-- Branch
-- Location
-- ServiceRequest
+- Customer
+- Journey
+- Touchpoint
+- Interaction
+- Event
+- Action
+- Segment
+- Campaign
+- Offer
+- Response
+- Channel
+- Experience
+- Feedback
+- Score
+- Metric
+- Path
+- Stage
+- Conversion
+- Attribution
+- Analytics
 
 **Total Number of Tables:** 3
 
@@ -272,27 +314,29 @@
 
 ### Source System: DST
 
-**System Functionality Description:** Data services and transfer system for data exchange, integration, and information management.
+**System Functionality Description:** Data storage and transfer system for secure data management and file exchange.
 
 **Top 20-25 Key Entity Names:**
-- DataTransfer
-- TransferJob
-- DataSource
-- TargetSystem
-- TransferLog
-- DataMapping
-- TransferSchedule
-- DataValidation
-- ErrorHandling
-- TransferStatus
-- DataPackage
-- TransferProtocol
-- DataFormat
-- TransferHistory
-- DataReconciliation
-- TransferMetrics
-- DataQuality
-- TransferConfiguration
+- File
+- Transfer
+- Storage
+- Location
+- Metadata
+- Version
+- Upload
+- Download
+- Encryption
+- Compression
+- Archive
+- Backup
+- Restore
+- Access
+- Permission
+- User
+- Log
+- Audit
+- Status
+- Schedule
 
 **Total Number of Tables:** 18
 
@@ -300,34 +344,34 @@
 
 ### Source System: Enrollment
 
-**System Functionality Description:** Customer enrollment platform for service registration, product enrollment, and customer onboarding.
+**System Functionality Description:** Customer enrollment system for service registration, product activation, and onboarding workflows.
 
 **Top 20-25 Key Entity Names:**
-- EnrollmentApplication
+- Enrollment
 - Customer
 - Product
 - Service
-- EnrollmentStatus
-- EnrollmentDate
-- CustomerProfile
-- ProductSelection
-- ServiceAgreement
-- EnrollmentChannel
-- VerificationStep
-- EnrollmentDocument
-- CustomerConsent
-- EnrollmentWorkflow
-- ProductConfiguration
-- ServiceActivation
-- EnrollmentFee
-- CustomerPreference
-- EnrollmentHistory
-- ActivationDate
-- EnrollmentSource
-- CustomerSegment
-- EnrollmentCampaign
-- ProductBundle
-- EnrollmentMetrics
+- Application
+- Status
+- Step
+- Workflow
+- Document
+- Verification
+- Approval
+- Activation
+- Configuration
+- Preference
+- Consent
+- Disclosure
+- Notification
+- Communication
+- AuditLog
+- Rule
+- Validation
+- Error
+- Retry
+- Completion
+- Cancellation
 
 **Total Number of Tables:** 226
 
@@ -335,34 +379,34 @@
 
 ### Source System: Experian
 
-**System Functionality Description:** Credit reporting and scoring service for credit checks, risk assessment, and identity verification.
+**System Functionality Description:** Credit bureau integration for credit reporting, scoring, and identity verification services.
 
 **Top 20-25 Key Entity Names:**
 - CreditReport
 - CreditScore
-- CreditInquiry
+- Consumer
 - Tradeline
+- Account
+- Inquiry
 - PublicRecord
 - Collection
-- CreditBureau
-- ConsumerIdentity
-- CreditHistory
-- PaymentHistory
-- CreditUtilization
-- Delinquency
 - Bankruptcy
 - Foreclosure
-- CreditLimit
-- AccountStatus
-- CreditAlert
-- DisputeRecord
-- FraudAlert
-- SecurityFreeze
-- CreditMonitoring
-- RiskScore
-- IdentityVerification
-- CreditAttribute
-- ScoreFactors
+- Judgment
+- Lien
+- Address
+- Employment
+- Identity
+- Fraud
+- Alert
+- Dispute
+- Verification
+- Authentication
+- Risk
+- Model
+- Attribute
+- Factor
+- Response
 
 **Total Number of Tables:** 48
 
@@ -370,34 +414,34 @@
 
 ### Source System: GME
 
-**System Functionality Description:** Global money exchange system for currency conversion, foreign exchange, and international transfers.
+**System Functionality Description:** Global money exchange system for foreign currency transactions and international payments.
 
 **Top 20-25 Key Entity Names:**
-- ExchangeTransaction
+- Transaction
+- Customer
 - Currency
 - ExchangeRate
-- Customer
-- ForeignExchange
-- TransferRequest
-- BeneficiaryAccount
-- ExchangeOrder
-- RateQuote
-- SettlementAccount
-- TransactionFee
-- ComplianceCheck
-- CounterpartyBank
-- PaymentInstruction
-- ExchangeContract
-- ValueDate
-- SpotRate
-- ForwardContract
-- HedgingInstrument
-- CurrencyPair
-- ExchangeMargin
-- TransferStatus
-- RegulatoryReporting
-- ExchangeLimit
-- TransactionHistory
+- Payment
+- Transfer
+- Beneficiary
+- Remittance
+- Fee
+- Commission
+- Settlement
+- Clearing
+- Country
+- Correspondent
+- SWIFT
+- Wire
+- Limit
+- Compliance
+- KYC
+- AML
+- Sanction
+- Watchlist
+- Report
+- Reconciliation
+- AuditLog
 
 **Total Number of Tables:** 94
 
@@ -405,17 +449,34 @@
 
 ### Source System: HarlandClarke
 
-**System Functionality Description:** Check printing and payment processing service for check orders and payment instruments.
+**System Functionality Description:** Check printing and payment card production system for personalized banking products.
 
 **Top 20-25 Key Entity Names:**
-- CheckOrder
+- Order
 - Customer
-- CheckDesign
-- OrderStatus
-- ShippingAddress
-- PaymentMethod
-- CheckSeries
-- OrderHistory
+- Account
+- Check
+- Card
+- Design
+- Personalization
+- Production
+- Inventory
+- Shipment
+- Delivery
+- Address
+- Status
+- Tracking
+- Quality
+- Defect
+- Return
+- Reorder
+- Pricing
+- Fee
+- Vendor
+- Supplier
+- Material
+- Specification
+- AuditLog
 
 **Total Number of Tables:** 8
 
@@ -423,34 +484,34 @@
 
 ### Source System: HRBlock
 
-**System Functionality Description:** Tax preparation and financial services integration for tax filing and refund processing.
+**System Functionality Description:** Tax preparation and filing integration for consumer tax services and refund processing.
 
 **Top 20-25 Key Entity Names:**
 - TaxReturn
 - Taxpayer
-- TaxForm
+- Filing
+- Form
 - Income
 - Deduction
-- TaxCredit
-- RefundAccount
-- FilingStatus
-- TaxYear
-- W2Form
-- 1099Form
-- TaxCalculation
-- StateReturn
-- FederalReturn
-- TaxPayment
-- RefundStatus
-- TaxDocument
+- Credit
+- Refund
+- Payment
+- Withholding
+- Adjustment
+- Schedule
+- W2
+- 1099
+- Status
+- Submission
+- Acknowledgment
+- Error
+- Amendment
+- Extension
+- State
+- Federal
 - Dependent
-- AdjustedGrossIncome
-- TaxLiability
-- WithholdingAmount
-- EstimatedTax
-- TaxAmendment
-- AuditSupport
-- TaxAdvice
+- Document
+- AuditLog
 
 **Total Number of Tables:** 105
 
@@ -458,34 +519,34 @@
 
 ### Source System: Identity
 
-**System Functionality Description:** Identity management system for customer identification, authentication, and identity verification.
+**System Functionality Description:** Identity management system for customer authentication, authorization, and access control.
 
 **Top 20-25 Key Entity Names:**
 - Identity
-- Customer
-- IdentityDocument
-- VerificationMethod
-- BiometricData
-- IdentityAttribute
-- VerificationStatus
-- IdentityProvider
-- AuthenticationFactor
-- IdentityProof
-- KYCRecord
-- IdentityCheck
-- DocumentVerification
-- LivenessCheck
-- FaceRecognition
-- IdentityScore
-- VerificationHistory
-- IdentityFraud
-- IdentityTheft
-- IdentityUpdate
-- VerificationAttempt
-- IdentityLink
-- TrustedIdentity
-- IdentityRisk
-- VerificationRule
+- User
+- Credential
+- Authentication
+- Authorization
+- Token
+- Session
+- Role
+- Permission
+- Policy
+- Access
+- Device
+- Factor
+- Verification
+- Certificate
+- Key
+- Profile
+- Attribute
+- Federation
+- SSO
+- MFA
+- Risk
+- Event
+- Log
+- Audit
 
 **Total Number of Tables:** 61
 
@@ -496,31 +557,31 @@
 **System Functionality Description:** Analytics and insights platform for customer behavior analysis and predictive modeling.
 
 **Top 20-25 Key Entity Names:**
-- CustomerInsight
-- BehaviorPattern
-- PredictiveModel
-- AnalyticsMetric
-- CustomerSegment
-- Propensity Score
-- ChurnPrediction
-- LifetimeValue
-- CustomerJourney
-- Touchpoint
-- EngagementScore
-- ProductAffinity
-- NextBestAction
-- CampaignResponse
-- CustomerProfile
-- BehaviorScore
-- RiskIndicator
-- OpportunityScore
-- CustomerPreference
-- InteractionHistory
-- ModelFeature
-- PredictionOutcome
-- SegmentationRule
-- InsightReport
-- AnalyticsWorkflow
+- Customer
+- Behavior
+- Event
+- Interaction
+- Segment
+- Score
+- Model
+- Prediction
+- Propensity
+- Churn
+- Lifetime Value
+- Campaign
+- Response
+- Conversion
+- Attribution
+- Metric
+- KPI
+- Dashboard
+- Report
+- Trend
+- Pattern
+- Anomaly
+- Insight
+- Recommendation
+- Action
 
 **Total Number of Tables:** 33
 
@@ -528,32 +589,34 @@
 
 ### Source System: IPL
 
-**System Functionality Description:** Integrated processing layer for transaction processing, payment handling, and core banking operations.
+**System Functionality Description:** Integrated product library for product catalog, pricing, and configuration management.
 
 **Top 20-25 Key Entity Names:**
-- Transaction
-- Account
-- Payment
-- Customer
-- ProcessingRule
-- TransactionType
-- PaymentMethod
-- SettlementBatch
-- TransactionStatus
-- AccountBalance
-- TransactionLog
-- ProcessingQueue
-- PaymentInstruction
-- ClearingRecord
-- ReconciliationEntry
-- TransactionFee
-- ProcessingError
-- RetryLogic
-- TransactionRoute
-- PaymentNetwork
-- SettlementAccount
-- TransactionLimit
-- ProcessingMetrics
+- Product
+- Service
+- Feature
+- Pricing
+- Rate
+- Fee
+- Term
+- Condition
+- Package
+- Bundle
+- Configuration
+- Option
+- Attribute
+- Category
+- Hierarchy
+- Relationship
+- Rule
+- Eligibility
+- Availability
+- Channel
+- Version
+- Effective Date
+- Status
+- Approval
+- AuditLog
 
 **Total Number of Tables:** 23
 
@@ -561,34 +624,34 @@
 
 ### Source System: IPL SQR
 
-**System Functionality Description:** IPL structured query and reporting system for data extraction and operational reporting.
+**System Functionality Description:** Integrated product library structured query reporting for product analytics and reporting.
 
 **Top 20-25 Key Entity Names:**
-- Query
 - Report
-- DataSource
-- ReportParameter
-- QueryResult
-- ReportDefinition
-- DataExtraction
-- ReportSchedule
-- QueryExecution
-- ReportOutput
-- DataFilter
-- ReportFormat
-- QueryTemplate
-- ReportDistribution
-- DataAggregation
-- ReportMetadata
-- QueryOptimization
-- ReportCache
-- DataTransformation
-- ReportHistory
-- QueryLog
-- ReportSubscription
-- DataValidation
-- ReportMetrics
-- QueryPerformance
+- Query
+- Dataset
+- Product
+- Metric
+- Dimension
+- Measure
+- Filter
+- Parameter
+- Aggregation
+- Calculation
+- Formula
+- Schedule
+- Subscription
+- Export
+- Format
+- Distribution
+- User
+- Permission
+- Log
+- Performance
+- Cache
+- Refresh
+- History
+- Snapshot
 
 **Total Number of Tables:** 590
 
@@ -596,7 +659,7 @@
 
 ### Source System: Jack Henry
 
-**System Functionality Description:** Core banking platform for account management, transaction processing, and customer relationship management.
+**System Functionality Description:** Core banking platform for deposit accounts, loan processing, and customer relationship management.
 
 **Top 20-25 Key Entity Names:**
 - Customer
@@ -611,19 +674,19 @@
 - Fee
 - Card
 - Statement
-- CheckingAccount
-- SavingsAccount
-- CertificateOfDeposit
-- MoneyMarket
-- LoanApplication
+- CheckOrder
+- ACH
+- Wire
+- DirectDeposit
+- Overdraft
+- Hold
+- Stop
+- Beneficiary
 - Collateral
-- PaymentSchedule
-- ACHTransaction
-- WireTransfer
-- CheckTransaction
-- ATMTransaction
-- OnlineBanking
-- MobileBanking
+- CreditBureau
+- Relationship
+- Service
+- Channel
 
 **Total Number of Tables:** 2996
 
@@ -631,29 +694,34 @@
 
 ### Source System: LoanDataMart
 
-**System Functionality Description:** Loan data warehouse for loan analytics, portfolio reporting, and performance analysis.
+**System Functionality Description:** Loan data warehouse for lending analytics, portfolio reporting, and risk management.
 
 **Top 20-25 Key Entity Names:**
 - LoanFact
-- CustomerDimension
+- BorrowerDimension
 - ProductDimension
 - DateDimension
 - BranchDimension
-- LoanBalance
-- PaymentFact
-- DelinquencyFact
-- OriginationMetric
-- PortfolioMetric
-- PerformanceIndicator
-- RiskMetric
-- ProfitabilityMeasure
-- LoanCharacteristic
-- CustomerSegment
-- ProductMix
-- GeographyDimension
-- TimeDimension
-- LoanStatus
-- AggregateBalance
+- OfficerDimension
+- Balance
+- Payment
+- Delinquency
+- ChargeOff
+- Recovery
+- Origination
+- Disbursement
+- Maturity
+- Rate
+- Term
+- Risk
+- Performance
+- Portfolio
+- Vintage
+- Cohort
+- Metric
+- KPI
+- Trend
+- Forecast
 
 **Total Number of Tables:** 20
 
@@ -661,34 +729,34 @@
 
 ### Source System: LVF
 
-**System Functionality Description:** Loan verification and funding system for loan validation, approval, and disbursement.
+**System Functionality Description:** Loan verification and fraud detection system for application screening and risk assessment.
 
 **Top 20-25 Key Entity Names:**
-- LoanVerification
-- FundingRequest
-- VerificationCheck
-- DisbursementInstruction
-- FundingSource
-- VerificationStatus
-- LoanApproval
-- FundingAccount
-- VerificationDocument
-- DisbursementSchedule
-- FundingCondition
-- VerificationResult
-- FundingAuthorization
-- VerificationRule
-- DisbursementMethod
-- FundingLimit
-- VerificationLog
-- FundingStatus
-- VerificationException
-- DisbursementConfirmation
-- FundingReconciliation
-- VerificationWorkflow
-- FundingHistory
-- VerificationMetrics
-- DisbursementTracking
+- Application
+- Borrower
+- Verification
+- Document
+- Income
+- Employment
+- Asset
+- Liability
+- Credit
+- Identity
+- Fraud
+- Alert
+- Score
+- Risk
+- Rule
+- Check
+- Validation
+- Exception
+- Review
+- Decision
+- Approval
+- Decline
+- Condition
+- Status
+- AuditLog
 
 **Total Number of Tables:** 25
 
@@ -696,34 +764,34 @@
 
 ### Source System: MassMaint
 
-**System Functionality Description:** Mass maintenance system for bulk updates, batch processing, and data maintenance operations.
+**System Functionality Description:** Mass maintenance system for bulk account updates, batch processing, and data corrections.
 
 **Top 20-25 Key Entity Names:**
-- MaintenanceJob
-- BatchUpdate
-- DataRecord
-- UpdateRule
-- ProcessingBatch
-- MaintenanceLog
-- ValidationRule
-- UpdateStatus
-- ErrorRecord
-- RollbackLog
-- MaintenanceSchedule
-- BatchConfiguration
-- DataSelection
-- UpdateCriteria
-- ProcessingQueue
-- MaintenanceHistory
-- BatchMetrics
-- DataBackup
-- UpdateVerification
-- MaintenanceApproval
-- BatchExecution
-- DataIntegrity
-- UpdateAudit
-- MaintenanceReport
-- BatchReconciliation
+- Job
+- Batch
+- Account
+- Update
+- Change
+- Field
+- Value
+- Selection
+- Criteria
+- Filter
+- Validation
+- Error
+- Success
+- Failure
+- Log
+- Audit
+- Approval
+- Schedule
+- Execution
+- Status
+- Rollback
+- Confirmation
+- Report
+- Summary
+- Detail
 
 **Total Number of Tables:** 76
 
@@ -731,29 +799,34 @@
 
 ### Source System: MeridianLink
 
-**System Functionality Description:** Digital lending platform for loan origination, application processing, and credit decisioning.
+**System Functionality Description:** Consumer loan origination platform for application processing and credit decisioning.
 
 **Top 20-25 Key Entity Names:**
-- LoanApplication
-- Applicant
-- CreditDecision
-- LoanProduct
-- ApplicationWorkflow
-- CreditReport
-- IncomeVerification
-- ApplicationStatus
-- LoanOfficer
-- DecisionEngine
-- ApplicationDocument
-- LoanPricing
-- RiskAssessment
-- ApplicationReview
-- LoanApproval
-- ApplicationData
-- CreditPolicy
-- ApplicationSubmission
-- DecisionRules
-- ApplicationMetrics
+- Application
+- Borrower
+- CoApplicant
+- Loan
+- Product
+- Credit
+- Income
+- Asset
+- Liability
+- Employment
+- Document
+- Verification
+- Decision
+- Approval
+- Condition
+- Stipulation
+- Pricing
+- Rate
+- Fee
+- Disclosure
+- Consent
+- Signature
+- Funding
+- Status
+- Workflow
 
 **Total Number of Tables:** 20
 
@@ -761,34 +834,34 @@
 
 ### Source System: MMA
 
-**System Functionality Description:** Money market account system for high-yield savings, interest calculation, and account management.
+**System Functionality Description:** Money market account management system for high-yield savings and investment accounts.
 
 **Top 20-25 Key Entity Names:**
-- MoneyMarketAccount
+- Account
 - Customer
 - Balance
-- InterestRate
 - Transaction
-- InterestAccrual
-- TierStructure
-- RateSchedule
-- AccountStatement
-- WithdrawalLimit
-- MinimumBalance
-- InterestPayment
-- AccountFee
-- RateChange
-- BalanceHistory
-- TransactionLimit
-- AccountOpening
-- AccountClosure
-- InterestCalculation
-- RateIndex
-- AccountMaintenance
-- BalanceTier
-- InterestPosting
-- AccountRestriction
-- RateAdjustment
+- Deposit
+- Withdrawal
+- Transfer
+- InterestRate
+- Tier
+- Accrual
+- Payment
+- Statement
+- Fee
+- Limit
+- Restriction
+- Sweep
+- Link
+- Relationship
+- Product
+- Term
+- Maturity
+- Renewal
+- Penalty
+- Tax
+- Reporting
 
 **Total Number of Tables:** 31
 
@@ -796,34 +869,34 @@
 
 ### Source System: NMLS
 
-**System Functionality Description:** Nationwide mortgage licensing system for loan officer licensing and regulatory compliance.
+**System Functionality Description:** Nationwide Mortgage Licensing System integration for loan officer licensing and compliance.
 
 **Top 20-25 Key Entity Names:**
 - LoanOfficer
 - License
-- LicenseStatus
-- RegulatoryRequirement
-- ComplianceRecord
-- LicenseRenewal
-- ContinuingEducation
-- BackgroundCheck
-- LicenseApplication
-- StateRegistration
-- LicenseExpiration
-- ComplianceTraining
-- DisciplinaryAction
-- LicenseVerification
-- RegistrationStatus
-- ComplianceAudit
-- LicenseHistory
-- RegulatoryFiling
-- LicenseTransfer
-- ComplianceReport
-- LicenseRevocation
-- EducationCredit
-- LicenseFee
-- ComplianceMonitoring
-- LicenseDocument
+- Registration
+- State
+- Status
+- Expiration
+- Renewal
+- Examination
+- Education
+- Training
+- Continuing Education
+- Sponsorship
+- Company
+- Branch
+- Disclosure
+- Complaint
+- Disciplinary
+- Background
+- FinancialResponsibility
+- CharacterFitness
+- Compliance
+- Report
+- Filing
+- Fee
+- AuditLog
 
 **Total Number of Tables:** 64
 
@@ -831,17 +904,34 @@
 
 ### Source System: OCB
 
-**System Functionality Description:** Online commercial banking platform for business banking services and corporate account management.
+**System Functionality Description:** Online commercial banking platform for business account management and treasury services.
 
 **Top 20-25 Key Entity Names:**
-- BusinessAccount
-- CommercialCustomer
+- Business
+- Account
 - Transaction
 - Payment
-- CashManagement
-- ACHBatch
-- WireTransfer
-- AccountServices
+- Transfer
+- ACH
+- Wire
+- PositivePay
+- Lockbox
+- Sweep
+- User
+- Entitlement
+- Approval
+- Workflow
+- Report
+- Statement
+- Alert
+- Notification
+- Limit
+- Beneficiary
+- Template
+- Batch
+- Import
+- Export
+- AuditLog
 
 **Total Number of Tables:** 8
 
@@ -849,34 +939,34 @@
 
 ### Source System: OLB
 
-**System Functionality Description:** Online banking platform for digital banking, account access, and self-service transactions.
+**System Functionality Description:** Online banking platform for retail customers with account access and transaction capabilities.
 
 **Top 20-25 Key Entity Names:**
-- OnlineUser
+- Customer
 - Account
 - Transaction
-- BillPayment
 - Transfer
+- Payment
+- BillPay
 - Payee
-- LoginSession
-- UserProfile
-- SecuritySettings
-- AccountAlert
-- ScheduledPayment
-- TransactionHistory
 - eStatement
-- QuickTransfer
-- ExternalAccount
-- BillPaySchedule
-- UserPreference
-- SecurityQuestion
-- DeviceRegistration
-- NotificationPreference
-- TransferLimit
-- PaymentConfirmation
-- AccountSummary
-- ActivityLog
-- UserAuthentication
+- Alert
+- Notification
+- Message
+- SecureMessage
+- User
+- Login
+- Session
+- Device
+- Enrollment
+- Profile
+- Preference
+- Setting
+- Security
+- Authentication
+- Authorization
+- Activity
+- AuditLog
 
 **Total Number of Tables:** 78
 
@@ -884,14 +974,34 @@
 
 ### Source System: Payveris
 
-**System Functionality Description:** Digital payment platform for person-to-person payments and mobile payment processing.
+**System Functionality Description:** Digital payment platform for person-to-person payments and bill pay services.
 
 **Top 20-25 Key Entity Names:**
 - Payment
-- Sender
+- User
 - Recipient
-- PaymentMethod
-- PaymentStatus
+- Payee
+- Account
+- Transaction
+- Transfer
+- Bill
+- Schedule
+- Recurring
+- OneTime
+- Amount
+- Status
+- Confirmation
+- Notification
+- Fee
+- Limit
+- Velocity
+- Fraud
+- Risk
+- Authentication
+- Authorization
+- Settlement
+- Reconciliation
+- AuditLog
 
 **Total Number of Tables:** 5
 
@@ -899,34 +1009,34 @@
 
 ### Source System: PCLender
 
-**System Functionality Description:** Consumer lending system for personal loan origination, servicing, and portfolio management.
+**System Functionality Description:** Consumer lending platform for loan origination, servicing, and portfolio management.
 
 **Top 20-25 Key Entity Names:**
 - Loan
 - Borrower
-- LoanApplication
-- Payment
-- LoanProduct
-- InterestRate
-- PaymentSchedule
-- LoanBalance
+- Application
+- Credit
 - Collateral
-- CreditScore
-- LoanStatus
-- Delinquency
-- LoanModification
-- PaymentHistory
-- LoanFee
-- LoanServicing
-- PrincipalBalance
-- InterestAccrual
-- LateCharge
-- LoanOrigination
-- UnderwritingDecision
-- LoanDisbursement
-- PayoffQuote
-- LoanRefinance
-- DefaultManagement
+- Payment
+- Schedule
+- Transaction
+- Principal
+- Interest
+- Fee
+- Escrow
+- Insurance
+- Tax
+- Statement
+- Notice
+- Document
+- Servicing
+- Default
+- Collection
+- Modification
+- Payoff
+- Investor
+- Reporting
+- Compliance
 
 **Total Number of Tables:** 283
 
@@ -934,11 +1044,29 @@
 
 ### Source System: Premover
 
-**System Functionality Description:** Pre-move customer notification system for address changes and customer relocation tracking.
+**System Functionality Description:** Pre-mover marketing system for targeting customers planning to relocate.
 
 **Top 20-25 Key Entity Names:**
-- CustomerMove
-- AddressChange
+- Prospect
+- Address
+- Move
+- Date
+- Campaign
+- Offer
+- Communication
+- Channel
+- Response
+- Conversion
+- Lead
+- Score
+- Segment
+- Target
+- Marketing
+- Analytics
+- Report
+- Tracking
+- Attribution
+- ROI
 
 **Total Number of Tables:** 2
 
@@ -946,34 +1074,34 @@
 
 ### Source System: Prevault
 
-**System Functionality Description:** Pre-vault processing system for check imaging, deposit processing, and item capture.
+**System Functionality Description:** Pre-vault document management system for loan document preparation and storage.
 
 **Top 20-25 Key Entity Names:**
-- CheckImage
-- DepositItem
-- CheckCapture
-- ItemProcessing
-- DepositBatch
-- ImageQuality
-- MICRData
-- ItemValidation
-- DepositAccount
-- CheckAmount
-- ProcessingStatus
-- ItemException
-- ImageArchive
-- DepositReceipt
-- ItemAdjustment
-- CaptureDevice
-- ProcessingBatch
-- ItemReturn
-- DepositVerification
-- ImageEnhancement
-- ItemSorting
-- DepositPosting
-- CaptureMetrics
-- ItemReconciliation
-- ProcessingLog
+- Document
+- Loan
+- Borrower
+- Template
+- Package
+- Version
+- Status
+- Review
+- Approval
+- Signature
+- Notarization
+- Recording
+- Index
+- Metadata
+- Storage
+- Retrieval
+- Archive
+- Retention
+- Disposal
+- Access
+- Permission
+- AuditLog
+- Compliance
+- Regulation
+- Quality
 
 **Total Number of Tables:** 138
 
@@ -981,28 +1109,34 @@
 
 ### Source System: Proctor
 
-**System Functionality Description:** Exam proctoring and testing system for assessment monitoring and test administration.
+**System Functionality Description:** Loan servicing and collections system for payment processing and delinquency management.
 
 **Top 20-25 Key Entity Names:**
-- Exam
-- TestTaker
-- ProctorSession
-- TestSchedule
-- ExamResult
-- ProctorLog
-- TestQuestion
-- ExamAttempt
-- ProctorAlert
-- TestScore
-- ExamSecurity
-- ProctorObservation
-- TestEnvironment
-- ExamIncident
-- ProctorReport
-- TestCompletion
-- ExamViolation
-- ProctorVerification
-- TestRecording
+- Loan
+- Borrower
+- Payment
+- Transaction
+- Balance
+- Delinquency
+- Collection
+- Contact
+- Promise
+- Arrangement
+- Letter
+- Notice
+- Call
+- Action
+- Status
+- Aging
+- Fee
+- Interest
+- Escrow
+- Statement
+- Report
+- Compliance
+- Investor
+- Remittance
+- AuditLog
 
 **Total Number of Tables:** 19
 
@@ -1010,16 +1144,34 @@
 
 ### Source System: Qualtrics
 
-**System Functionality Description:** Customer experience management platform for surveys, feedback collection, and experience analytics.
+**System Functionality Description:** Customer experience management platform for surveys, feedback collection, and sentiment analysis.
 
 **Top 20-25 Key Entity Names:**
 - Survey
 - Response
 - Question
+- Answer
 - Respondent
-- SurveyDistribution
-- FeedbackScore
-- SurveyResult
+- Distribution
+- Campaign
+- Panel
+- Contact
+- Feedback
+- Score
+- NPS
+- CSAT
+- Sentiment
+- Theme
+- Topic
+- Analysis
+- Report
+- Dashboard
+- Alert
+- Action
+- Workflow
+- Integration
+- Export
+- Metadata
 
 **Total Number of Tables:** 7
 
@@ -1027,13 +1179,34 @@
 
 ### Source System: Quantarium
 
-**System Functionality Description:** Property valuation system for automated home valuations and real estate analytics.
+**System Functionality Description:** Property valuation and analytics platform for automated home value estimates.
 
 **Top 20-25 Key Entity Names:**
-- PropertyValuation
 - Property
-- ValuationModel
-- MarketData
+- Valuation
+- Estimate
+- AVM
+- Address
+- Characteristics
+- Comparable
+- Market
+- Trend
+- Forecast
+- Confidence
+- Range
+- Accuracy
+- Model
+- Factor
+- Adjustment
+- Date
+- Price
+- Appreciation
+- Risk
+- Report
+- Analytics
+- Index
+- Neighborhood
+- Zip
 
 **Total Number of Tables:** 4
 
@@ -1041,21 +1214,34 @@
 
 ### Source System: RAF
 
-**System Functionality Description:** Risk adjustment factor system for risk scoring and financial risk assessment.
+**System Functionality Description:** Risk adjustment factor system for credit risk assessment and pricing.
 
 **Top 20-25 Key Entity Names:**
-- RiskScore
-- RiskFactor
-- RiskAssessment
-- RiskCategory
-- RiskModel
-- RiskAdjustment
-- RiskMetric
-- RiskProfile
-- RiskCalculation
-- RiskIndicator
-- RiskWeight
-- RiskParameter
+- Risk
+- Factor
+- Score
+- Model
+- Variable
+- Weight
+- Calculation
+- Adjustment
+- Pricing
+- Rate
+- Premium
+- Discount
+- Segment
+- Category
+- Grade
+- Tier
+- Threshold
+- Limit
+- Policy
+- Rule
+- Override
+- Exception
+- Approval
+- AuditLog
+- Version
 
 **Total Number of Tables:** 12
 
@@ -1063,17 +1249,34 @@
 
 ### Source System: Rakuten
 
-**System Functionality Description:** Rewards and cashback platform for customer loyalty programs and promotional offers.
+**System Functionality Description:** Rewards and cashback platform for customer loyalty and shopping incentives.
 
 **Top 20-25 Key Entity Names:**
-- Reward
-- Customer
+- Member
+- Account
 - Transaction
-- Cashback
+- Purchase
 - Merchant
 - Offer
-- RewardRedemption
-- LoyaltyProgram
+- Cashback
+- Reward
+- Points
+- Redemption
+- Payout
+- Balance
+- Earning
+- Rate
+- Category
+- Campaign
+- Promotion
+- Referral
+- Bonus
+- Status
+- History
+- Statement
+- Tax
+- Report
+- Analytics
 
 **Total Number of Tables:** 8
 
@@ -1081,34 +1284,34 @@
 
 ### Source System: Refi
 
-**System Functionality Description:** Refinance processing system for mortgage refinancing, rate analysis, and loan restructuring.
+**System Functionality Description:** Mortgage refinance origination system for loan application processing and rate shopping.
 
 **Top 20-25 Key Entity Names:**
-- RefinanceApplication
-- ExistingLoan
-- NewLoan
+- Application
 - Borrower
 - Property
-- RateComparison
-- RefinanceAnalysis
-- CostBenefit
-- LoanTerms
-- RefinanceApproval
+- ExistingLoan
+- NewLoan
+- Rate
+- Term
+- Payment
+- Savings
+- Credit
+- Income
+- Asset
 - Appraisal
-- CreditCheck
-- ClosingCost
-- RateLock
-- LoanPayoff
-- RefinanceType
-- EquityPosition
-- LoanToValue
-- RefinanceReason
-- ApplicationStatus
-- UnderwritingReview
-- RefinanceDisclosure
-- FundingDate
-- RefinanceSavings
-- LoanComparison
+- Title
+- Insurance
+- Closing
+- Cost
+- Fee
+- Document
+- Disclosure
+- Lock
+- Pricing
+- Underwriting
+- Approval
+- Funding
 
 **Total Number of Tables:** 53
 
@@ -1116,34 +1319,34 @@
 
 ### Source System: RIS
 
-**System Functionality Description:** Retail investment services platform for brokerage accounts, trading, and investment management.
+**System Functionality Description:** Regulatory information system for compliance tracking, reporting, and regulatory change management.
 
 **Top 20-25 Key Entity Names:**
-- InvestmentAccount
-- Customer
-- Security
-- Trade
-- Position
-- Order
-- Portfolio
-- Transaction
-- MarketData
-- AssetAllocation
-- TradeExecution
-- AccountBalance
-- SecurityHolding
-- DividendPayment
-- CapitalGain
-- TradingFee
-- AccountStatement
-- InvestmentGoal
-- RiskTolerance
-- PortfolioPerformance
-- OrderStatus
-- TradeConfirmation
-- CashBalance
-- MarginAccount
-- InvestmentStrategy
+- Regulation
+- Rule
+- Requirement
+- Compliance
+- Policy
+- Procedure
+- Control
+- Assessment
+- Gap
+- Remediation
+- Action
+- Owner
+- Status
+- Deadline
+- Report
+- Filing
+- Submission
+- Evidence
+- Document
+- Change
+- Impact
+- Risk
+- Issue
+- Audit
+- Review
 
 **Total Number of Tables:** 30
 
@@ -1151,20 +1354,34 @@
 
 ### Source System: SBLOC
 
-**System Functionality Description:** Securities-backed line of credit system for collateralized lending and margin management.
+**System Functionality Description:** Securities-backed line of credit system for investment-secured lending and portfolio management.
 
 **Top 20-25 Key Entity Names:**
-- CreditLine
+- Account
+- Customer
+- Portfolio
+- Security
+- Position
 - Collateral
-- SecurityPosition
-- LoanBalance
-- DrawRequest
-- CollateralValuation
-- MarginRequirement
-- CreditLimit
+- Loan
+- LineOfCredit
+- Advance
+- Repayment
+- Balance
+- LoanToValue
+- MarginCall
+- Liquidation
 - InterestRate
-- PaymentSchedule
-- CollateralMonitoring
+- Fee
+- Transaction
+- Valuation
+- Market
+- Risk
+- Limit
+- Covenant
+- Statement
+- Report
+- Compliance
 
 **Total Number of Tables:** 11
 
@@ -1172,18 +1389,34 @@
 
 ### Source System: SFR Boarding
 
-**System Functionality Description:** Single-family rental boarding system for property onboarding and rental account setup.
+**System Functionality Description:** Single-family rental property boarding system for investment property onboarding.
 
 **Top 20-25 Key Entity Names:**
 - Property
-- RentalAccount
+- Owner
+- Investor
+- Application
+- Appraisal
+- Inspection
+- Title
+- Insurance
+- Lease
 - Tenant
-- LeaseAgreement
-- PropertyOwner
-- BoardingApplication
-- PropertyInspection
-- AccountSetup
-- RentalPayment
+- Rent
+- Document
+- Verification
+- Approval
+- Onboarding
+- Status
+- Workflow
+- Condition
+- Stipulation
+- Closing
+- Funding
+- Portfolio
+- Management
+- Report
+- Compliance
 
 **Total Number of Tables:** 9
 
@@ -1191,16 +1424,34 @@
 
 ### Source System: Synapsys
 
-**System Functionality Description:** System integration platform for application connectivity and data synchronization.
+**System Functionality Description:** Integrated system for data synchronization and cross-platform integration.
 
 **Top 20-25 Key Entity Names:**
+- System
 - Integration
-- DataSync
-- SystemEndpoint
-- SyncJob
-- DataMapping
-- IntegrationLog
-- SyncStatus
+- Interface
+- Message
+- Transaction
+- Mapping
+- Transformation
+- Sync
+- Schedule
+- Job
+- Status
+- Error
+- Log
+- Retry
+- Queue
+- Event
+- Trigger
+- Endpoint
+- API
+- Protocol
+- Format
+- Validation
+- Reconciliation
+- Monitor
+- Alert
 
 **Total Number of Tables:** 7
 
@@ -1208,34 +1459,34 @@
 
 ### Source System: TCA
 
-**System Functionality Description:** Transaction cost analysis system for trading analytics and execution quality measurement.
+**System Functionality Description:** Total cost analysis system for pricing optimization and profitability analysis.
 
 **Top 20-25 Key Entity Names:**
-- Trade
-- ExecutionCost
-- BenchmarkPrice
-- Slippage
-- MarketImpact
-- ExecutionVenue
-- TradingStrategy
-- CostAnalysis
-- ExecutionQuality
-- OrderRouting
-- PriceImprovement
-- TradingFee
-- Commission
-- SpreadCost
-- OpportunityCost
-- ExecutionSpeed
-- VenuePerformance
-- TradingAlgorithm
-- ExecutionMetrics
-- CostAttribution
-- BestExecution
-- VenueComparison
-- TradingEfficiency
-- ExecutionReport
-- PerformanceAnalysis
+- Product
+- Service
+- Cost
+- Revenue
+- Profit
+- Margin
+- Price
+- Fee
+- Volume
+- Customer
+- Account
+- Transaction
+- Allocation
+- Driver
+- Rate
+- Tier
+- Segment
+- Analysis
+- Report
+- Dashboard
+- Metric
+- KPI
+- Trend
+- Forecast
+- Scenario
 
 **Total Number of Tables:** 165
 
@@ -1243,34 +1494,34 @@
 
 ### Source System: ICI
 
-**System Functionality Description:** Investment company institute data system for mutual fund information and investment product data.
+**System Functionality Description:** Integrated customer information system for consolidated customer data and relationship management.
 
 **Top 20-25 Key Entity Names:**
-- MutualFund
-- FundFamily
-- ShareClass
-- NAV
-- FundPerformance
-- Expense Ratio
-- AssetAllocation
-- FundManager
-- InvestmentObjective
-- FundHolding
-- Dividend
-- CapitalGain
-- FundFee
-- MinimumInvestment
-- RedemptionFee
-- LoadStructure
-- FundProspectus
-- BenchmarkIndex
-- RiskRating
-- FundCategory
-- TurnoverRatio
-- YieldRate
-- TotalReturn
-- FundInflow
-- AssetUnderManagement
+- Customer
+- Account
+- Relationship
+- Contact
+- Address
+- Phone
+- Email
+- Identification
+- Demographics
+- Preference
+- Consent
+- Household
+- Segment
+- Profile
+- History
+- Interaction
+- Event
+- Document
+- Note
+- Alert
+- Status
+- Risk
+- Score
+- Attribute
+- Hierarchy
 
 **Total Number of Tables:** 56
 
@@ -1278,34 +1529,34 @@
 
 ### Source System: ICDB
 
-**System Functionality Description:** Investment company database for fund data management and investment product information.
+**System Functionality Description:** Integrated customer database for centralized customer information and data management.
 
 **Top 20-25 Key Entity Names:**
-- InvestmentCompany
-- Fund
-- Security
-- Portfolio
-- FundData
-- InvestmentProduct
-- CompanyProfile
-- FundRegistration
-- RegulatoryFiling
-- FundDistribution
-- InvestmentAdvisor
-- FundCompliance
-- ProductOffering
-- FundDocumentation
-- InvestmentPolicy
-- FundGovernance
-- ShareholderService
-- FundAccounting
-- DistributionChannel
-- FundMarketing
-- CompanyStructure
-- FundOperation
-- InvestmentRestriction
-- FundReporting
-- CompanyRelationship
+- Customer
+- Account
+- Transaction
+- Balance
+- Product
+- Service
+- Relationship
+- Contact
+- Address
+- Demographics
+- Identification
+- Verification
+- Status
+- Segment
+- Profile
+- Preference
+- Consent
+- History
+- Activity
+- Event
+- Document
+- Note
+- Alert
+- Risk
+- AuditLog
 
 **Total Number of Tables:** 67
 
@@ -1316,31 +1567,31 @@
 **System Functionality Description:** Service unenrollment system for customer opt-out processing and service termination.
 
 **Top 20-25 Key Entity Names:**
-- UnenrollmentRequest
+- Unenrollment
 - Customer
 - Service
-- UnenrollmentReason
-- UnenrollmentDate
-- ServiceTermination
-- UnenrollmentStatus
-- ExitSurvey
-- ServiceHistory
-- UnenrollmentConfirmation
-- RetentionAttempt
-- UnenrollmentChannel
-- ServiceCancellation
-- UnenrollmentFee
-- FinalBilling
-- AccountClosure
-- UnenrollmentWorkflow
-- ServiceDeactivation
-- UnenrollmentDocument
-- CustomerFeedback
-- RetentionOffer
-- UnenrollmentMetrics
-- ServiceRestoration
-- UnenrollmentAudit
-- CancellationPolicy
+- Product
+- Request
+- Reason
+- Date
+- Status
+- Workflow
+- Approval
+- Confirmation
+- Notification
+- Effective Date
+- Termination
+- Cancellation
+- Refund
+- Balance
+- Settlement
+- Document
+- Communication
+- Feedback
+- Survey
+- Retention
+- AuditLog
+- Report
 
 **Total Number of Tables:** 276
 
@@ -1348,34 +1599,34 @@
 
 ### Source System: ULP
 
-**System Functionality Description:** Universal lending platform for multi-product loan origination and unified lending operations.
+**System Functionality Description:** Universal lending platform for multi-product loan origination and processing.
 
 **Top 20-25 Key Entity Names:**
-- LoanApplication
+- Application
 - Borrower
-- LoanProduct
-- CreditDecision
+- Loan
+- Product
+- Credit
+- Income
+- Asset
+- Liability
+- Collateral
+- Document
+- Verification
 - Underwriting
-- LoanOrigination
-- ApplicationWorkflow
-- DocumentManagement
-- LoanPricing
-- ComplianceCheck
-- CreditReport
-- IncomeVerification
-- AssetVerification
-- LoanApproval
-- ApplicationStatus
-- LoanOfficer
-- ProductConfiguration
-- DecisionEngine
-- LoanCondition
-- ApplicationData
-- RiskAssessment
-- LoanCommitment
-- ClosingPreparation
-- QualityControl
-- LoanFunding
+- Decision
+- Approval
+- Pricing
+- Rate
+- Fee
+- Disclosure
+- Closing
+- Funding
+- Servicing
+- Workflow
+- Status
+- Compliance
+- AuditLog
 
 **Total Number of Tables:** 82
 
@@ -1383,34 +1634,34 @@
 
 ### Source System: ULP LOS DB
 
-**System Functionality Description:** Universal lending platform loan origination system database for application and loan data.
+**System Functionality Description:** Universal lending platform loan origination system database for application data storage.
 
 **Top 20-25 Key Entity Names:**
-- LoanApplication
+- Application
 - Borrower
-- LoanData
-- ApplicationDocument
-- LoanProduct
-- CreditInformation
-- PropertyInformation
-- ApplicationStatus
-- LoanOfficer
-- UnderwritingData
-- LoanPricing
-- ApplicationWorkflow
-- ComplianceData
-- LoanCondition
-- ApplicationHistory
-- DecisionData
-- LoanEstimate
-- ClosingDisclosure
-- FundingData
-- QualityControlData
-- ApplicationMetrics
-- LoanPipeline
-- OriginationData
-- LoanSubmission
-- ApprovalData
+- Loan
+- Product
+- Credit
+- Income
+- Asset
+- Document
+- Verification
+- Decision
+- Approval
+- Condition
+- Status
+- Workflow
+- Stage
+- Milestone
+- Task
+- Assignment
+- Note
+- History
+- AuditLog
+- Configuration
+- Rule
+- Template
+- Report
 
 **Total Number of Tables:** 30
 
@@ -1418,11 +1669,34 @@
 
 ### Source System: UniversalEnrollment
 
-**System Functionality Description:** Universal enrollment platform for multi-service customer enrollment and registration.
+**System Functionality Description:** Universal enrollment platform for multi-service customer registration and onboarding.
 
 **Top 20-25 Key Entity Names:**
-- EnrollmentApplication
+- Enrollment
 - Customer
+- Service
+- Product
+- Application
+- Step
+- Workflow
+- Status
+- Document
+- Verification
+- Approval
+- Activation
+- Configuration
+- Preference
+- Consent
+- Disclosure
+- Notification
+- Communication
+- Error
+- Validation
+- Rule
+- Template
+- AuditLog
+- Report
+- Analytics
 
 **Total Number of Tables:** 2
 
@@ -1430,34 +1704,34 @@
 
 ### Source System: UniversalEnrollmentRulesEngine
 
-**System Functionality Description:** Rules engine for enrollment decisioning, eligibility validation, and enrollment workflow automation.
+**System Functionality Description:** Rules engine for universal enrollment decision-making and workflow automation.
 
 **Top 20-25 Key Entity Names:**
-- EnrollmentRule
-- EligibilityCriteria
-- RuleEngine
-- DecisionLogic
+- Rule
 - RuleSet
-- EnrollmentCondition
-- ValidationRule
-- RuleExecution
-- DecisionOutcome
-- RuleConfiguration
-- EligibilityCheck
-- RuleVersion
-- DecisionTree
-- RuleParameter
-- EnrollmentDecision
-- RuleEvaluation
-- ConditionLogic
-- RulePriority
-- DecisionLog
-- RuleException
-- EligibilityResult
-- RuleAudit
-- DecisionWorkflow
-- RuleMetadata
-- EnrollmentEligibility
+- Condition
+- Action
+- Decision
+- Workflow
+- Step
+- Trigger
+- Event
+- Variable
+- Parameter
+- Expression
+- Logic
+- Outcome
+- Routing
+- Assignment
+- Notification
+- Exception
+- Override
+- Approval
+- Version
+- Configuration
+- Execution
+- Log
+- Audit
 
 **Total Number of Tables:** 40
 
@@ -1472,27 +1746,27 @@
 - Case
 - Transaction
 - Customer
-- SuspiciousActivity
-- FraudPattern
-- MonitoringRule
+- Account
+- Rule
+- Scenario
+- Score
+- Risk
 - Investigation
-- RiskScore
-- ComplianceReport
-- AMLScenario
-- FraudCase
-- TransactionMonitoring
-- CustomerRisk
-- AlertDisposition
-- CaseManagement
-- RegulatoryFiling
-- InvestigationNote
-- RiskIndicator
-- ComplianceAlert
-- FraudDetection
-- SARFiling
-- CasePriority
-- InvestigationWorkflow
-- ComplianceAudit
+- SAR
+- CTR
+- Fraud
+- AML
+- Watchlist
+- PEP
+- Sanction
+- Pattern
+- Behavior
+- Disposition
+- Evidence
+- Report
+- Compliance
+- Workflow
+- AuditLog
 
 **Total Number of Tables:** 26
 
@@ -1500,10 +1774,34 @@
 
 ### Source System: WLS
 
-**System Functionality Description:** Wholesale lending system for correspondent lending and wholesale mortgage operations.
+**System Functionality Description:** Wholesale lending system for broker channel loan origination and processing.
 
 **Top 20-25 Key Entity Names:**
-- WholesaleLoan
+- Loan
+- Broker
+- Application
+- Borrower
+- Product
+- Pricing
+- Rate
+- Lock
+- Submission
+- Underwriting
+- Approval
+- Condition
+- Document
+- Closing
+- Funding
+- Purchase
+- Investor
+- Commission
+- Fee
+- Compliance
+- Audit
+- Pipeline
+- Status
+- Workflow
+- Report
 
 **Total Number of Tables:** 1
 
@@ -1511,34 +1809,34 @@
 
 ### Source System: WLSBDDFI
 
-**System Functionality Description:** Wholesale lending business data and financial integration for wholesale mortgage data management.
+**System Functionality Description:** Wholesale lending system broker dealer direct fulfillment interface for loan delivery.
 
 **Top 20-25 Key Entity Names:**
-- WholesaleLoan
-- Correspondent
-- LoanPurchase
-- LoanDelivery
-- PurchaseCommitment
-- LoanPackage
-- QualityControl
-- LoanAudit
-- CorrespondentAgreement
-- PurchaseAdvice
-- LoanFunding
-- WarehouseLine
-- LoanDeliverySchedule
-- PurchasePrice
-- LoanException
-- CorrespondentPerformance
-- LoanRepurchase
-- DeliveryDefect
-- PurchaseCondition
-- LoanAcquisition
-- CorrespondentApproval
-- PurchaseMetrics
-- LoanQuality
-- DeliveryConfirmation
-- PurchaseReconciliation
+- Loan
+- Broker
+- Dealer
+- Delivery
+- Package
+- Document
+- Verification
+- Validation
+- Funding
+- Purchase
+- Investor
+- Warehouse
+- Collateral
+- Custodian
+- Transfer
+- Assignment
+- Recording
+- Status
+- Exception
+- Correction
+- Reconciliation
+- Settlement
+- Report
+- Compliance
+- AuditLog
 
 **Total Number of Tables:** 27
 
@@ -1546,17 +1844,33 @@
 
 ### Source System: Yodlee
 
-**System Functionality Description:** Account aggregation platform for financial data aggregation and external account connectivity.
+**System Functionality Description:** Financial data aggregation platform for account connectivity and transaction enrichment.
 
 **Top 20-25 Key Entity Names:**
-- AggregatedAccount
-- ExternalInstitution
-- AccountCredential
-- TransactionData
-- AccountBalance
-- DataRefresh
-- AggregationProvider
-- AccountLink
-- DataSync
+- Account
+- Customer
+- Institution
+- Transaction
+- Balance
+- Connection
+- Credential
+- Aggregation
+- Refresh
+- Category
+- Merchant
+- Enrichment
+- Classification
+- Position
+- Holding
+- Investment
+- Statement
+- Document
+- Alert
+- Notification
+- Status
+- Error
+- Log
+- Sync
+- API
 
 **Total Number of Tables:** 9
