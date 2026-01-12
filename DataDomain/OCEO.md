@@ -1,36 +1,7 @@
-# OCEO Business Unit - Source Systems Analysis
+# Business Unit: OCEO
 
-## Business Unit: OCEO
+## Source System Analysis
 
-### Source System: iGrafx
-
-**System Functionality Description:** Business process management and optimization platform for process modeling, analysis, and improvement.
-
-**Top 20-25 Key Entity Names:**
-- Process
-- Activity
-- Task
-- Workflow
-- Step
-- Role
-- Resource
-- Input
-- Output
-- Decision
-- Gateway
-- Event
-- Trigger
-- Rule
-- Metric
-- KPI
-- Performance
-- Cycle Time
-- Bottleneck
-- Efficiency
-- Simulation
-- Optimization
-- Model
-- Diagram
-- Repository
-
-**Total Number of Tables:** 46
+| Business Unit | Source System Name | System Functionality | Top 20-25 Key Entity Names | Total Number of Tables |
+|--------------|-------------------|---------------------|---------------------------|----------------------|
+| OCEO | iGrafx | Manages business process modeling, analysis, and operational excellence initiatives. | - Process<br>- Activity<br>- Task<br>- Workflow<br>- Step<br>- Gateway<br>- Event<br>- Role<br>- Resource<br>- Department<br>- System<br>- Document<br>- Data<br>- Metric<br>- KPI<br>- Performance<br>- Analysis<br>- Simulation<br>- Optimization<br>- Improvement<br>- Model<br>- Diagram<br>- Version<br>- Repository<br>- Governance | 46 |
